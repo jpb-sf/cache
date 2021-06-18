@@ -1,0 +1,2027 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fons",
+				"font-style"
+			],
+			[
+				"b",
+				"background\tproperty"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"ba",
+				"background-clip\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"time",
+				"time_existed"
+			],
+			[
+				"cache",
+				"cacheCleared"
+			],
+			[
+				"term",
+				"terminalManager"
+			],
+			[
+				"use",
+				"userEntry"
+			],
+			[
+				"us",
+				"userEntry"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"font-st",
+				"font-style\tproperty"
+			],
+			[
+				"cu",
+				"cursorFlag"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"cells",
+				"cellsArr"
+			],
+			[
+				"LR",
+				"LRUrotate"
+			],
+			[
+				"has",
+				"hashmap"
+			],
+			[
+				"linked",
+				"linked_list"
+			],
+			[
+				"Mongo",
+				"MongoClient"
+			],
+			[
+				"las",
+				"lastCell2"
+			],
+			[
+				"last",
+				"lastCell1"
+			],
+			[
+				"pos",
+				"position1"
+			],
+			[
+				"la",
+				"lastCell2"
+			],
+			[
+				"fir",
+				"firstCell2"
+			],
+			[
+				"first",
+				"firstCell1"
+			],
+			[
+				"se",
+				"secondCell2"
+			],
+			[
+				"po",
+				"position2"
+			],
+			[
+				"positon",
+				"position1"
+			],
+			[
+				"set",
+				"setAttribute"
+			],
+			[
+				"crate",
+				"createTextNode"
+			],
+			[
+				"ma",
+				"margin-left\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"fr",
+				"firstCell2"
+			],
+			[
+				"ti",
+				"thirdCell2"
+			],
+			[
+				"third",
+				"thirdCell1"
+			],
+			[
+				"sc",
+				"secondCell2"
+			],
+			[
+				"thi",
+				"thirdCell2"
+			],
+			[
+				"th",
+				"thirdCell2"
+			],
+			[
+				"Secon",
+				"secondCell2"
+			],
+			[
+				"second",
+				"secondCell1"
+			],
+			[
+				"thir",
+				"thirdCell1"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"clear",
+				"clearBlinking"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"s",
+				"sans-serif\tfont-family"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"grid-template",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"gridte",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"a",
+				"auto\toverflow"
+			],
+			[
+				"tab",
+				"table-cell\tdisplay"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"fle",
+				"flex-direction\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"box-s",
+				"box-sizing\tproperty"
+			],
+			[
+				"bord",
+				"border-collapse\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"m",
+				"margin\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"e",
+				"except"
+			],
+			[
+				"url",
+				"url_for"
+			],
+			[
+				"col",
+				"column_titles"
+			],
+			[
+				"co",
+				"columnTitles"
+			],
+			[
+				"vis",
+				"visibility\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"render",
+				"render_template"
+			],
+			[
+				"rend",
+				"render_template"
+			],
+			[
+				"n",
+				"nowrap\twhite-space"
+			],
+			[
+				"db",
+				"db_extract"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"grid",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"v",
+				"visibility\tproperty"
+			],
+			[
+				"visibl",
+				"visibility"
+			],
+			[
+				"border",
+				"border-width\tproperty"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"le",
+				"letter-spacing\tproperty"
+			],
+			[
+				"tem",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"grid-tem",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"arra",
+				"arraySwapper"
+			],
+			[
+				"remove",
+				"removeExtra"
+			],
+			[
+				"al",
+				"alphaConverter"
+			],
+			[
+				"prim",
+				"prime_num2"
+			],
+			[
+				"nu",
+				"numberArray"
+			],
+			[
+				"sum",
+				"sumOfParts"
+			],
+			[
+				"si",
+				"singleFromSum"
+			],
+			[
+				"on",
+				"onlyLatin"
+			],
+			[
+				"temp",
+				"tempArr2"
+			],
+			[
+				"w",
+				"whichCase"
+			],
+			[
+				"max",
+				"maxTotal2"
+			],
+			[
+				"ar",
+				"arraySpltr"
+			],
+			[
+				"swap",
+				"swapElem"
+			],
+			[
+				"arr",
+				"arrayTest"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"ap",
+				"alpha"
+			],
+			[
+				"num",
+				"numCheck"
+			],
+			[
+				"bro",
+				"border-radius"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"spl",
+				"splitIt"
+			],
+			[
+				"chan",
+				"changeText2"
+			],
+			[
+				"get",
+				"getElement"
+			],
+			[
+				"text-d",
+				"text-decoration"
+			],
+			[
+				"backg",
+				"backgroundColor"
+			],
+			[
+				"test",
+				"test-btn1"
+			],
+			[
+				"new",
+				"newElement"
+			],
+			[
+				"playerAtt",
+				"playerAttackValues"
+			],
+			[
+				"pla",
+				"playerIdent"
+			],
+			[
+				"getSidebar",
+				"getSidebarLinks"
+			],
+			[
+				"calc",
+				"calculation"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"toggleNav",
+				"toggleNavStatus"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"toggle",
+				"toggleNavStatus"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"site",
+				"siteUrl"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "cache3.py",
+			"settings":
+			{
+				"buffer_size": 10204,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.py",
+			"settings":
+			{
+				"buffer_size": 1392,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/index_copy.html",
+			"settings":
+			{
+				"buffer_size": 3383,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\nimport os\nimport time\nimport sys\nimport csv\nimport shutil\nimport uuid\nimport re\nfrom flask import Flask, request, session, render_template, redirect, make_response, url_for, json, jsonify\nimport config\n# from flask_session import Session\n# from flask_pymongo import PyMongo\nimport pymongo \nfrom bson.objectid import ObjectId\n\"\"\"\nMock Cache LRU program uses a double linked-list for fast insertion/deletion of cache values,\nalong with keeping track of 'LRU order.' The program also uses a dictionary to 'hash map' key/vals\nfor the fast lookup of values. As lookup is slow in a linked-list, and insertion/deletion \nis slower in a hashmap, the program uses best of both worlds; a linked-list, and hash-map \nfor a smooth LRU cache. \n\nupdate: reminder to self. 4/14/21. My cache memory is in-program memory. The csv is the 'database'\n\ntemporary update: \n1) csv will need to add a session id for each row of fibonacci values. (NOPE)\nThese session values are 'the user,' as there is no user. (Delete session after 3 days?)\n2) Global variables are used across different/all sessions/users. Is the fix to change global variables into\n'session' variables. (YEP) \n\n#####3)After further investigation, server-side session is a key put into the client's cookie, with coinciding data  stored server side. So asking\n# my original question that was preplexing me for days, is PROGRAM MEMORY available across all functions\nbut tied to only one session/user even possible? \nIn-program memory could be established within a user (username/pw) model, but within a system dependent on sessions only,\nthis would not be possible as I understand it. BUT using a Session stored on db with a key on the client creates a session value \nthat is independent to the user via the unique session key. those unique values could be stored/accessed globally with session.\n\nEXPIRED 4) New possible solution: still load users session into a program memory structure in a session object.\n# have the program memory session expire in 3 days (YEP) along with all the references to that session (temp user) in the csv (database) (NOPE)\n\nEXPIRED I1) Should there be any variation between duration of csv and session id? (To preserve the user) \nDoes that even make sense? \nIf a session id expires, but the program replaces the old session id and updates the csv with the new one, \ndoes that defeat the purpose of the inherent security of expiring sessions?\n# Because if that session id is compromised (not for this program does it matter) swapping session ids can be performed/sent\n to the malicious user.\n\t\n\n\t##### Originally I was going to set the DB to store 'long-term' data unique to EACH session, and then load cache memory from this db memory.\n\tThis is wrong as the cache/server-side session still has to be stored in the DB. Below I work out why unique session long term data/memory is also silly.\n\n\tA1) Am I even formulating this correctly? Should the data be stored in the db solely with the accompanied user (also with the order).\n\tWhat would be the point? The session (cache) memory and user db memory would coinside/exist for the same duration. The program does not have to call on/\n\trebuild the session object (cache) from the data base. So this also begs the question, does the database even have to remember the order? Or\n\tbe associated with any session ids? What if the database is user neutral/independent and just stores all data. I could still wipe it\n\tperiodically.\n\n\tRELATIVE And speaking generally as a reminder to myself, cache memory can be user-relative, or application-wide. \n\tI'm choosing both user-relative and keeping it extremely small to fully illustrate the LRU model via a front-end animation.\n\tSimulating this memory with the session object using MongoDB will also allow me to build a linked-list hashmap, \n\twhereas I couldn't do that using a csv or mysql.  \n\n\nEXPIRED I2 is kind of irrelevant\nI2) How do I properly update the csv in respect to order? Maybe sort() with next and prev values of index numbers?\n# Maybe index odd only, when swapping the numbers they could be +1 (even), this way numbers can be swapped, and remain unique during swapping.\n\n\tA2) Refer to A1 above. This is probably not even necessary.\n\n# Side question: is it possible to store complex data like a linked-list into a csv/mysql as complex data?\n# The neccessary re-indexing required of next and prev values isn't a true linked-list. \nAccording to Stack Overflow users, the anwer is no for MySQL, but NoSQL like MongoDB can do it!\n# \n\n\n\nBlueprint order of application\n##### When entry is submitted by user, order is:\n\tif cache:\n\t\treturns to client from cache\n\telse: \n\t\tif db:\n\t\t\treturns to client from db\n\t\telse: \n\t\t\tprocesses algorithm\n\n5/15/\nchange front end top row\nmongo collection name is session id. should add date to it and be done with it. \n\"\"\"\n\n\nclass RepeatedTimer(object):\n    def __init__(self, interval, function, *args, **kwargs):\n        self._timer     = None\n        self.interval   = interval\n        self.function   = function\n        self.args       = args\n        self.kwargs     = kwargs\n        self.is_running = False\n        self.start()\n\n    def _run(self):\n        self.is_running = False\n        self.start()\n        self.function(*self.args, **self.kwargs)\n\n    def start(self):\n        if not self.is_running:\n            self._timer = Timer(self.interval, self._run)\n            self._timer.start()\n            self.is_running = True\n\n    def stop(self):\n        self._timer.cancel()\n        self.is_running = False\n\napp = Flask(__name__)\n\napp.config.from_object('config.Development')\n\n# client = MongoClient('mongodb+srv://jbdb:WtHMyDb808@cluster0.z05a4.mongodb.net/LRUsim?retryWrites=true&w=majority')\n\nclient = pymongo.MongoClient('localhost:27017')\ndb = client['lru']\nperm = db['perm']\ncache = db['cache']\n# sess = Session(app)\n\ndef fib(n):\n\ttry:\n\t\tn = int(n)\n\texcept:\n\t\tprint('fib exception has occurred')\n\t\treturn\n\tif n == 0:\n\t\treturn \"zero\"\n\tif n == 1:\n\t\treturn 0\n\tif n == 2 or n == 3:\n\t\treturn 1\n\telse:\n\t\treturn fib(n - 1) + fib(n - 2)\n\n# Node class (constructor) \nclass Node:\n\tdef __init__(self, key, val=False):\n\t\tself.key = key\n\t\tif val:\n\t\t\tself.data = val\n\t\telse:\n\t\t\tself.data = fib(key)\n\t\tself.next = None\n\t\tself.prev = None\n\n# LinkedList class (constructor)\nclass LinkedList:\n\tdef __init__(self):\n\t\tself.head = None\n\t\tself.tail = None\n\ndef identify_user():\n\t# Check if session key exists\n\tif session.get('id'):\n\t\t# Loop through collection names\n\t\tfor col in db.list_collection_names():\n\t\t\t\t# Check if session id exists as a collection name\n\t\t\t\tif session['id'] == col:\n\t\t\t\t\t# return existing session id as the continued session id\n\t\t\t\t\treturn str(session['id'])\n\n\treturn str(uuid.uuid4()) + \".\" + str(time.time())\n\n\n@app.route('/')\ndef home():\n\tsession['id'] = identify_user()\n\tprint(session['id'])\n\n\t# user_id = request.cookies.get('YourSessionCookie')\n\tresponse = make_response(render_template('index.html'))\n\t# response.set_cookie(key='YourSessionCookie', value='something', max_age=(1000*60*60*24)*3, secure=False, httponly=True, samesite='lax')\n\t# response.delete_cookie('YourSessionCookie')\n\treturn response\n\n\t\t\n# The add_link()function first adds the new nodes to linked-list from user entry. \n# Second, it's 'utilized in load_cache)() function to rebuild the linked-list during a new session, \n# or if the program is closed and reopened\n# Note: not recalling fib function)\ndef add_link(key, val):\n\t# Create new node\n\tnew = Node(key, val)\n\t# If program cache is empty\n\tif llist.head == None:\n\t\t# Set head to Node class (becomes first node)\n\t\tllist.head = new\n\t\t# Point tail to head, as head pointer value becomes tail after a second node is added\n\t\tllist.tail = llist.head\n\telse:\n\t\t# Point new node 'next' to llist.head\n\t\tnew.next = llist.head\n\n\t\t# Set tail 'prev' if not set\n\t\tif not llist.tail.prev:\n\t\t\tllist.tail.prev = new\n\n\t\t# Point head of list 'prev' to new node\n\t\tllist.head.prev = new \n\t\t# Reset llist.head to point to the new node\n\t\tllist.head = new\n\treturn new\n\n# If key value already exists, function 'moves' node, and pointers(next, prev) in Linked List accordingly\ndef link_swap(key):\n\tcurrent = llist.head\n\t# If list isn't empty, Loop through doubly linked-list checking to see if key already exists\n\twhile current:\n\t\t# If the current.key matches the key\n\t\tif current.key == key:\n\t\t\t\n\t\t\t# If the key is not the first node. (If it is, function returns true, exits)\n\t\t\tif current.prev:\n\t\t\t\t# If the key is not the last node (Node removes itself)\n\t\t\t\tif current.next:\n\t\t\t\t\t\n\t\t\t\t\t# Point the previous node's next to current node's next value\n\t\t\t\t\tcurrent.prev.next = current.next\n\t\t\t\t\t# Point the next node's prev to the current nodes' prev\n\t\t\t\t\tcurrent.next.prev = current.prev\n\n\t\t\t\t# If the key is the last node,\n\t\t\t\telse:\n\t\t\t\t\t# Set the second last node's next to none\n\t\t\t\t\tcurrent.prev.next = None\n\t\t\t\t\t# Set linked list tail to the 'current' value's prev (second to last)\n\t\t\t\t\tllist.tail = current.prev\n\t\t\t\t\n\t\t\t\t# Move new Node 'current's' next pointer to the llist.head (current head becomes the second node in the LL)\n\t\t\t\tcurrent.next = llist.head\n\t\t\t\t# Point current head prev to the current Node (connection finished)\n\t\t\t\tllist.head.prev = current\n\t\t\t\t# Reset llist.head to point to the new Node 'current'\n\t\t\t\tllist.head = current\n\n\t\t\t# Node value exists, swap in order of the linked-list nodes was made\n\t\t\treturn True\n\n\t\t# updates value for the while loop\n\t\tcurrent = current.next\n\t# Node value does not already exist\n\treturn False\n\n\n# Function removes least-recently-used node from linked-list, and least-recently-used key/value pair from hash map\n# It returns the key of llist.tail\ndef del_LRU():\n\t# Set the second to last node by referencing the linked-list tail's previous\n\tdeleteKeyValue = llist.tail.key\n\t\n\t# delete from hashmap backup\n\tdel backup[deleteKeyValue]\n\t\n\t# Put the secondToLast.next to point to None\n\tllist.tail.prev.next = None\n\t# Reset the tail value \n\tllist.tail = llist.tail.prev\n\n\tprint('del LRU') \n\n\treturn deleteKeyValue\n\n#UPdate, how do I know that this csv file is rebuilding the program memory in correct order?\n# I'm just looping through the csv rows to rebuild. Update again: I never set the swap function \n# to move the csv values order, only program memory. \n\n# Load the program's 'cache' into both its hash map, and doubly-linked list from the db (fib.csv)\n# def load_cache():\n# \t# fieldnames = ['key', 'val']\n# \ttry:\n# \t\twith open('fib.csv', 'r+') as fibCsv:\n# \t\t\tcsvReader = csv.DictReader(fibCsv)\n# \t\t\tfibCsv.seek(0, 2)\n# \t\t\t# If cache is not empty, load it\n# \t\t\tif not fibCsv.tell() == 0:\n\t\t\n# \t\t\t\tfibCsv.seek(0)\n# \t\t\t\tfor line in csvReader:\n# \t\t\t\t\t# Load hashmap (values are double linked-list)\n# \t\t\t\t\tbackup.update({int(line['key']): add_link(int(line['key']), int(line['val']))})\n\t\t\t\t\t\n# \t\t\t\tprint('Load cache')\n# \t\t\t\tprint(llist.head.key)\t\t\n# \t\t\t\tprint(llist.tail.key)\t\t\n# \t\t\t\tprint('backup is {')\n# \t\t\t\tfor x,y in backup.items():\n# \t\t\t\t\tprint(str(x) + ': ' + str(y.data))\n\n# \t\t\t\tprint('}')\n\t\t\n# \texcept Exception as e:\n# \t\tprint(e)\n\n# def load_cache():\n# \t# do later\n\t\n# Function adds new value as a new node to a linked list; a key/value pair in the hash map and the csv file\ndef update_cache(key, val):\n\tfieldnames = ['key', 'val']\n\ttry:\n\t\twith open('fib.csv', 'a+', newline=\"\") as fibW:\n\t\t\t# csvReader = csv.DictReader(fibR)\n\t\t\tcsvWriter = csv.DictWriter(fibW, fieldnames=fieldnames)\n\t\t\t# Search to see if file is empty\n\t\t\tfibW.seek(0,2)\n\t\t\t# If file is empty\n\t\t\tif fibW.tell() == 0:\n\t\t\t\tfibW.seek(0)\n\t\t\t\tcsvWriter.writeheader()\n\t\t\tcsvWriter.writerow({'key': key, 'val': val})\n\texcept Exception as e:\n\t\tprint(e)\n\n# March 2021 (this was in the function below after fibR, in first line after 'try') -- open('fib.csv', 'a+', newline=\"\") as fibW,\ndef remove_cache(deleteKeyValue):\n\tfieldnames = ['key', 'val']\n\ttry:\n\t\twith open('fib.csv', 'r') as fibR,  \\\n\t\topen('temp.csv', 'a+', newline=\"\") as tempW:\n\t\t\tcsvReader = csv.DictReader(fibR, fieldnames=fieldnames)\n\t\t\t# csvWriter = csv.DictWriter(fibW, fieldnames=fieldnames)\n\t\t\ttempWriter = csv.DictWriter(tempW, fieldnames=fieldnames)\n\t\t\tprint('csv is full')\n\t\t\tprint('deleteKeyValue is ' + str(deleteKeyValue))\n\t\n\t\t\t# For ever line in csv if the key is NOT matching, write the line\n\t\t\tfor line in csvReader:\n\t\t\t\tif not line['key'] == str(deleteKeyValue):\n\t\t\t\t\ttempWriter.writerow(line) \n\t\t\t# shutil.move('content of source','to destination')\n\t\t\tshutil.move('temp.csv','fib.csv')\n\texcept Exception as e:\n\t\tprint(e)\n\t\t\ndef clear_cache():\n\ttry:\n\t\t#Clear the whole csv, by making a new file, and saving it over the old one\n\t\twith open('fib.csv', 'r') as csvOld, open('new.csv', 'w', newline='') as csvNew:\n\t\t\tcsvReader = csv.DictReader(csvOld)\n\t\t\tcsvOld.seek(0, 2) \n\t\t\t# If cache is empty, there is nothing to delete and copy over, function stops.\n\t\t\tif not csvOld.tell() == 0:\n\t\t\t\t# shutil.move('content of source','to destination')\n\t\t\t\tshutil.move('new.csv','fib.csv')\n\n\t\t\t\t# Check if backup has been loaded yet\n\t\t\t\tif backup:\n\t\t\t\t\t# Empty hash map\n\t\t\t\t\tbackup.clear()\n\n\t\t\t\t# Check if llist has been loaded yet\n\t\t\t\tif llist.head:\n\t\t\t\t\t# Delete nodes in linked list\n\t\t\t\t\ttrav = llist.head.next\n\t\t\t\t\t# While trav is not None\n\t\t\t\t\twhile not trav:\n\t\t\t\t\t\t\n\t\t\t\t\t\t# Delete previous node\n\t\t\t\t\t\tif trav.prev:\n\t\t\t\t\t\t\tdel trav.prev\n\t\t\t\t\t\t# If last node, delete\n\t\t\t\t\t\telse:\n\t\t\t\t\t\t\tdel trav\n\t\t\t\t\t\t\n\t\t\t\t\t\t# Traverse to next node\n\t\t\t\t\t\ttry:\n\t\t\t\t\t\t\ttrav = trav.next\n\t\t\t\t\t\texcept Exception as e:\n\t\t\t\t\t\t\tpass\n\n\t\t\t\t\t# Reset head tail values\n\t\t\t\t\tllist.head = None\n\t\t\t\t\tllist.tail = None\n\t\t\t\t\n\t\t\t\tresult = \"Cache is cleared\"\n\t\t\t\treturn result\n\t\t\t\n\t\t\telse:\n\t\t\t\tresult = \"Cache is already cleared\"\n\t\t\t\treturn result\n\n\texcept Exception as e:\n\t\tprint(e)\n\n\t\n# Function is called from readCache, 'reads'/ returns value from hashmap dict, if exists in cache\ndef return_cache(state, key):\n\tif state:\n\t\treturn backup[key].data\n\telse:\n\t\tval = fib(key)\n\t\treturn val\n\n# cache_manager() function returns cache value to user from hashmap backup, IF it exists.\n# If it doesn't exist, it calculates value, returns, and saves it to program data structures,\n# and the cache (csv file)\ndef cache_manager(key):\n\tdeleteKeyValue = False\n\t# Check if key is in the program's uploaded cache hash table (backup)\n\tif key in backup:\n\t\t# Call return_cache function which sends value to user\n\t\tstart = time.time()\n\t\tval = return_cache(True, key)\n\t\tend = time.time()\n\t\telapsed = \"{:.8f}\".format(end - start)\n\t\tprint('Return to user: Position ' + str(key) + ' is: ' + str(backup[key]))\n\t\tprint('Time taken for cached value: ' + elapsed)\n\n\t# If the key is not uploaded into program cache hashmap\n\tif key not in backup:\n\t\tprint(\"cache miss backup\")\n\t\t# Kick the value back to the user before the program adds the new value to the cache\n\t\t# Call return_cache function which sends value to user\n\t\tstart = time.time()\n\t\tval = return_cache(False, key)\n\t\tend = time.time()\n\t\telapsed = \"{:.8f}\".format(end - start)\n\t\tprint('Return to user: Position ' + str(key) + ' is: ' + str(val))\n\t\tprint('Time taken for uncached value: ' + elapsed)\n\n \t # Then continue adding new value to the program's cache data structures, and csv.\n\t\n\t# capacity of cache is not full (False) until we check \n\tcapacity = False\n\t# If the backup hashmap is full and value is not already cached, delete last node in linked-list, and the key/value in backup\n\tif len(backup) >= 5 and not key in backup:\n\t\t# Cache capacity is Full (True)\n\t\tcapacity = True\n\t\tprint('Cache is full')\n\t\t\n\t\t# Delete value from program's memory (backup and linked-list)\n\t\tdeleteKeyValue = del_LRU()\n\t\t\n\t\t# Remove LRU value from cache\n\t\tremove_cache(deleteKeyValue)\n\n\t# Finally, if key value does not exist in program memory already, add the new key value pair\n\t# to the linked-list (add_link()), and hash-table (backup), and then to the cache (update_cache())\n\tif not link_swap(key):\n\t\t\n\t\tbackup.update({key: add_link(key, val)})\n\tprint('new llist.head.key is ' + str(llist.head.key))\n\tprint('new llist.tail.key is ' + str(llist.tail.key))\n\tprint('backup is {')\n\tfor x,y in backup.items():\n\t\tprint(str(x) + ': ' + str(y.data))\n\tprint('}')\n\t\n#================================================================\n\n\n@app.route('/check', methods=['POST'])\ndef\tcheck():\n\t# Check if session id is in database\n\tsession['id'] = identify_user()\n\t# Set collection to corresponding session in use\n\tcollection = db[session['id']]\n\t# Receive value from front end\n\targ = request.get_data().decode('UTF-8')\n\tresults = collection.find({})\n\tcount = results.count()\n\tprint('count')\n\tprint(count)\n\t# If new user with empty cache\n\tif count == 0:\n\t\tcollection.insert(\n\t\t\t{\n\t\t\t\t'key': arg,\n\t\t\t\t'value': fib(arg),\n\t\t\t\t'nex': None,\n\t\t\t\t'prev': None\n\t\t\t})\n\t\t\n\t\tnew_node = collection.find_one({'key': arg})\n\t\taddress = new_node['_id']\n\t\t\n\t\tcollection.insert_many(\n\t\t\t[\n\t\t\t\t{\n\t\t\t\t\t'_id': 'linked-list',\n\t\t\t\t\t'head': address,\n\t\t\t\t\t'tail': address\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t'_id': 'hashmap', \n\t\t\t\t\targ: address\n\t\t\t\t}\n\t\t\t])\n\t# If existing user, check if submitted argument exists or not\t\n\telse:\n\t\th_map = collection.find({'_id': 'hashmap'})\n\t\texists = False\n\t\t# Check if key (arg) already exists in cache by looping (extracting value) in cursor object of h_map\n\t\tfor extract in h_map:\n\t\t\t#loop through a list of extracted value's keys\n\t\t\tfor i in list(extract.keys()):\n\t\t\t\tprint(i)\n\t\t\t\tif i == arg:\n\t\t\t\t\texists = True\n\t\t\t\t\tprint('It exists')\t\t\n\n\t\t# If it exists, is arg the head value of the linked-list? (The most recently used), do nothing, otherwise swap\n\t\tif exists:\n\t\t\tl_list = collection.find_one({'_id': 'linked-list'})\n\t\t\tprint(l_list['head'])\n\t\t\thead = collection.find_one({'_id': l_list['head']})\n\t\t\t# if arg is not most recently accessed/inserted\n\t\t\tprint('head key')\n\t\t\tprint(head['key'])\n\t\t\t# Is head?\n\t\t\tif head['key'] == arg:\n\t\t\t\tprint(head['key'])\n\t\t\t\tpass\n\t\t\t# Swap\n\t\t\telse:\n\t\t\t\tl_list = collection.find_one({'_id': 'linked-list'})\n\t\t\t\tswap = prev = nex = \"\"\n\t\t\t\tnext_node = l_list['head']\n\t\t\t\tfor _ in range(count):\n\t\t\t\t\tcur = collection.find_one({'_id': next_node})\n\t\t\t\t\tif cur['key'] == arg:\n\t\t\t\t\t\tswap = cur['_id']\n\t\t\t\t\t\tnex = cur['nex']\n\t\t\t\t\t\tprev = cur['prev']\n\t\t\t\t\t\tprint('swap')\n\t\t\t\t\t\tprint(swap)\n\t\t\t\t\t\tbreak\n\t\t\t\t\telse:\n\t\t\t\t\t\tnext_node = cur['nex']\n\t\t\t\tprint(swap)\n\t\t\t\tprint(nex)\n\t\t\t\tprint(prev)\n\n\t\t\t\tcollection.update({'_id': prev},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"$set\": {\n\t\t\t\t\t\t\t\t\t'nex': nex,\n\t\t\t\t\t\t\t\t\t# not right, works if arg is 2nd, otherwise \n\t\t\t\t\t\t\t\t\t# if prev == l_list['head'], else do nothing but need to get l_list['head'] address prev set to swap\n\t\t\t\t\t\t\t\t\t# 'prev': swap\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t})\n\t\t\t\t# what if this is None?\n\t\t\t\tif not nex:\n\t\t\t\t\tcollection.update({'_id': nex},\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"$set\": {'prev': prev}\n\t\t\t\t\t\t})\n\t\t\t\n\t\t\t\tcollection.update({'_id': swap},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"$set\": {\n\t\t\t\t\t\t\t\t\t'prev': None,\n\t\t\t\t\t\t\t\t\t'nex': l_list['head']\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t})\n\t\t\t\tcollection.update({'_id': l_list['head']},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"$set\": {\n\t\t\t\t\t\t\t\t\t'prev': swap\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t})\n\t\t\t\t# l_list = collection.find_one({'_id': 'linked-list'})\n\t\t\t\t# If the document is the last node in linked-list\n\t\t\t\tif nex == None:\n\t\t\t\t\tprint('Lets do it')\n\t\t\t\t\tcollection.update({'_id': 'linked-list'},\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"$set\": {\n\t\t\t\t\t\t\t\t\t\t'head': swap,\n\t\t\t\t\t\t\t\t\t\t'tail': prev\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t})\n\t\t\t\t\tcollection.update({'_id': prev},\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"$set\": {'nex': None }\n\t\t\t\t\t\t})\n\n\t\t\t\telse:\n\t\t\t\t\tprint('cmon', swap)\n\t\t\t\t\tcollection.update({'_id': 'linked-list'},\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"$set\": {'head': swap}\n\t\t\t\t\t\t})\n\n\t\t# Arg value does not exist in 'cache', insert it, if cache is full, delete LRU document\t\n\t\telse:\n\t\t\tl_list = collection.find_one({'_id': 'linked-list'})\n\t\t\tcollection.insert(\n\t\t\t\t{\n\t\t\t\t\t'key': arg,\n\t\t\t\t\t'value': fib(arg),\n\t\t\t\t\t'nex': l_list['head'],\n\t\t\t\t\t'prev': None\n\t\t\t\t})\n\t\t\tnew_node = collection.find_one({'key': arg})\n\t\t\taddress = new_node['_id']\n\t\t\t\n\t\t\t# Update the was 1st doc/node, which is now 2nd node's 'prev' value to point towards the new first (new arg) document/node\n\t\t\tcollection.update({'_id': l_list['head']},\n\t\t\t\t{\n\t\t\t\t\t\"$set\": {'prev': address}\n\t\t\t\t})\n\t\t\t\n\t\t\t# Update the l_list head and hashmap to point at the new document/node\n\t\t\tcollection.update({'_id': 'linked-list'},\n\t\t\t\t{\n\t\t\t\t\t\"$set\": {'head': address}\n\t\t\t\t})\n\t\t\tcollection.update({'_id': 'hashmap'},\n\t\t\t\t{\n\t\t\t\t\t\"$set\": {arg: address}\n\t\t\t\t})\n\t\t\t\n\t\t\t# Remove LRU node\n\t\t\tprint('count is')\n\t\t\tprint(count)\n\t\t\tif count > 5:\n\t\t\t\t# Get last node in linked-list (l_list)\n\t\t\t\tl_list = collection.find_one({'_id': 'linked-list'})\n\t\t\t\tlast = collection.find_one({'_id': l_list['tail']})\n\t\t\t\t\n\t\t\t\t# Remove corresponding hashmap value from hashmap doc\n\t\t\t\tcollection.update({'_id': 'hashmap'},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"$unset\": {last['key']: last['value']}\n\t\t\t\t\t})\n\t\t\t\t# Get the second-to-last node id\n\t\t\t\tnext_last = collection.find_one({'_id': last['prev']})\n\t\t\t\tcollection.update({'_id': next_last['_id']}, \n\t\t\t\t\t{\n\t\t\t\t\t\t\"$set\": {'nex': None}\n\t\t\t\t\t})\n\n\t\t\t\t#delete last node\n\t\t\t\tcollection.delete_one({'_id': l_list['tail']})\n\t\t\t\tcollection.update({'_id': 'linked-list'},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"$set\": {'tail': next_last['_id']}\n\t\t\t\t\t})\n\n\n\tevery = collection.find({})\n\tprint('every')\n\tfor ever in every:\n\t\tprint(ever)\n\treturn arg\n\nif __name__ == '__main__':\n\tapp.run(debug=True)\n\n\n#======================================================\n#======================================================\n\n\nimport os\nimport time\nimport sys\nimport csv\nimport shutil\nimport uuid\nimport re\nfrom flask import Flask, request, session, render_template, redirect, make_response, url_for, json, jsonify\nimport config\nimport pymongo \nfrom bson.objectid import ObjectId\n\"\"\"\nMock Cache LRU program uses a double linked-list for fast insertion/deletion of cache values,\nalong with keeping track of 'LRU order.' The program also uses a dictionary to 'hash map' key/vals\nfor the fast lookup of values. As lookup is slow in a linked-list, and insertion/deletion \nis slower in a hashmap, the program uses best of both worlds; a linked-list, and hash-map \nfor a smooth LRU cache. \n\"\"\"\n\napp = Flask(__name__)\napp.config.from_object('config.Development')\n\n# client = MongoClient('mongodb+srv://jbdb:WtHMyDb808@cluster0.z05a4.mongodb.net/LRUsim?retryWrites=true&w=majority')\n\nclient = pymongo.MongoClient('localhost:27017')\ndb = client['lru']\nperm = db['perm']\ncache = db['cache']\n\n\n#==============\n\ndef fib(n):\n\ttry:\n\t\tn = int(n)\n\texcept:\n\t\tprint('fib exception has occurred')\n\t\treturn\n\tif n == 0:\n\t\treturn \"zero\"\n\tif n == 1:\n\t\treturn 0\n\tif n == 2 or n == 3:\n\t\treturn 1\n\telse:\n\t\treturn fib(n - 1) + fib(n - 2)\n\n# Node class (constructor) \n# class Node:\n# \tdef __init__(self, key, val=False):\n# \t\tself.key = key\n# \t\tif val:\n# \t\t\tself.data = val\n# \t\telse:\n# \t\t\tself.data = fib(key)\n# \t\tself.next = None\n# \t\tself.prev = None\n\n# # LinkedList class (constructor)\n# class LinkedList:\n# \tdef __init__(self):\n# \t\tself.head = None\n# \t\tself.tail = None\n\ndef identify_user():\n\t# Check if session key exists\n\tif session.get('id'):\n\t\t# Loop through collection names\n\t\tfor col in db.list_collection_names():\n\t\t\t\t# Check if session id exists as a collection name\n\t\t\t\tif session['id'] == col:\n\t\t\t\t\t# return existing session id as the continued session id\n\t\t\t\t\treturn str(session['id'])\n\n\treturn str(uuid.uuid4()) + \".\" + str(time.time())\n\n\n@app.route('/')\ndef home():\n\tsession['id'] = identify_user()\n\tprint(session['id'])\n\n\t# user_id = request.cookies.get('YourSessionCookie')\n\tresponse = make_response(render_template('index.html'))\n\t# response.set_cookie(key='YourSessionCookie', value='something', max_age=(1000*60*60*24)*3, secure=False, httponly=True, samesite='lax')\n\t# response.delete_cookie('YourSessionCookie')\n\treturn response\n\n\ndef add_first_link(collection, arg):\n\tfib_val = fib(arg)\n\tcollection.insert(\n\t{\n\t\t'key': arg,\n\t\t'value': fib_val,\n\t\t'nex': None,\n\t\t'prev': None\n\t})\n\treturn fib_val\n\ndef build_cache(collection, arg):\n\tnew_node = collection.find_one({'key': arg})#####\n\taddress = new_node['_id']\n\t\n\tcollection.insert_many(\n\t\t[\n\t\t\t{\n\t\t\t\t'_id': 'linked-list',\n\t\t\t\t'head': address,\n\t\t\t\t'tail': address\n\t\t\t},\n\t\t\t{\n\t\t\t\t'_id': 'hashmap', \n\t\t\t\targ: address\n\t\t\t}\n\t\t])\n\ndef check_arg_exist(h_map, arg):\n\texists = False\n\t# Check if key (arg) already exists in cache by looping (extracting value) in cursor object of h_map\n\tfor extract in h_map:\n\t\t#loop through a list of extracted value's keys\n\t\tfor i in list(extract.keys()):\n\t\t\tprint(i)\n\t\t\tif i == arg:\n\t\t\t\texists = True\n\t\t\t\tprint('It exists')\n\treturn exists\n\ndef swap_link(collection, arg, count):\n\tl_list = collection.find_one({'_id': 'linked-list'})\n\tnext_node = l_list['head']\n\tswap = prev = nex = \"\"\n\tcondition = None\n\tfor i in range(count - 2):\n\t\tcur = collection.find_one({'_id': next_node})\n\t\tif cur['key'] == arg:\n\t\t\tswap = cur['_id']\n\t\t\tnex = cur['nex']\n\t\t\tprev = cur['prev']\n\t\t\tcondition = i\n\t\t\tprint('swap')\n\t\t\tprint(swap)\n\t\t\tbreak\n\t\telse:\n\t\t\tnext_node = cur['nex']\n\tprint(swap)\n\tprint(nex)\n\tprint(prev)\n\n\tcollection.update({'_id': prev},\n\t\t{\n\t\t\t\"$set\": { 'nex': nex }\n\t\t})\n\t# what if this is None?\n\tif nex:\n\t\tcollection.update({'_id': nex},\n\t\t\t{\n\t\t\t\t\"$set\": {'prev': prev}\n\t\t\t})\n\n\tcollection.update({'_id': swap},\n\t\t{\n\t\t\t\"$set\": {\n\t\t\t\t\t\t'prev': None,\n\t\t\t\t\t\t'nex': l_list['head']\n\t\t\t\t\t}\n\t\t})\n\tcollection.update({'_id': l_list['head']},\n\t\t{\n\t\t\t\"$set\": {\n\t\t\t\t\t\t'prev': swap\n\t\t\t\t\t}\n\t\t})\n\n\t# If the document is the last node in linked-list\n\tif nex == None:\n\t\tprint('Lets do it')\n\t\tcollection.update({'_id': 'linked-list'},\n\t\t\t{\n\t\t\t\t\"$set\": {\n\t\t\t\t\t\t\t'head': swap,\n\t\t\t\t\t\t\t'tail': prev\n\t\t\t\t\t\t}\n\t\t\t})\n\t\tcollection.update({'_id': prev},\n\t\t\t{\n\t\t\t\t\"$set\": {'nex': None }\n\t\t\t})\n\n\telse:\n\t\tprint('cmon', swap)\n\t\tcollection.update({'_id': 'linked-list'},\n\t\t\t{\n\t\t\t\t\"$set\": {'head': swap}\n\t\t\t})\n\tif condition > 0:\n\t\tcondition += 1\n\treturn condition\n\ndef add_link(collection, arg):\n\tl_list = collection.find_one({'_id': 'linked-list'})\n\tcollection.insert(\n\t\t{\n\t\t\t'key': arg,\n\t\t\t'value': fib(arg),\n\t\t\t'nex': l_list['head'],\n\t\t\t'prev': None\n\t\t})\n\tnew_node = collection.find_one({'key': arg}) ######\n\taddress = new_node['_id']\n\tprint('address is')\n\tprint(address)\n\t\n\t# Update the was 1st doc/node, which is now 2nd node's 'prev' value to point towards the new first (new arg) document/node\n\tcollection.update({'_id': l_list['head']},\n\t\t{\n\t\t\t\"$set\": {'prev': address}\n\t\t})\n\t\n\t# Update the l_list head and hashmap to point at the new document/node\n\tcollection.update({'_id': 'linked-list'},\n\t\t{\n\t\t\t\"$set\": {'head': address}\n\t\t})\n\tcollection.update({'_id': 'hashmap'},\n\t\t{\n\t\t\t\"$set\": {arg: address}\n\t\t})\n\t\n# Remove LRU node\ndef del_LRU(collection, arg):\n\t# Get last node in linked-list (l_list)\n\tl_list = collection.find_one({'_id': 'linked-list'})\n\tlast = collection.find_one({'_id': l_list['tail']})\n\t\n\t# Remove corresponding hashmap value from hashmap doc\n\tcollection.update({'_id': 'hashmap'},\n\t\t{\n\t\t\t\"$unset\": {last['key']: last['value']}\n\t\t})\n\t# Get the second-to-last node id\n\tnext_last = collection.find_one({'_id': last['prev']})\n\tcollection.update({'_id': next_last['_id']}, \n\t\t{\n\t\t\t\"$set\": {'nex': None}\n\t\t})\n\n\t#delete last node\n\tcollection.delete_one({'_id': l_list['tail']})\n\tcollection.update({'_id': 'linked-list'},\n\t\t{\n\t\t\t\"$set\": {'tail': next_last['_id']}\n\t\t})\n\n\n@app.route('/check', methods=['POST'])\ndef\tcache_manager():\n\t# Check if session id is in database\n\tsession['id'] = identify_user()\n\t# Set collection to corresponding session in use\n\tcollection = db[session['id']]\n\t# Receive value from front end\n\targ = request.get_data().decode('UTF-8')\n\tresults = collection.find({})\n\tcount = results.count()\n\tcondition = None\n\tfib_val = None\n\tprint('count')\n\tprint(count)\n\t# If new user with empty cache\n\tif count == 0:\n\t\tfib_val = add_first_link(collection, arg)\n\t\tbuild_cache(collection, arg)\n\t\tcondition = 1\n\t\tcount += 3 \n\t# If existing user, check if submitted argument exists or not\t\n\telse:\n\t\th_map = collection.find({'_id': 'hashmap'})\n\t\texists = check_arg_exist(h_map, arg)\n\n\t\t# If it exists, is arg the head value of the linked-list? (The most recently used), do nothing, otherwise swap\n\t\tif exists:\n\t\t\tprint('hello')\n\t\t\tl_list = collection.find_one({'_id': 'linked-list'})\n\t\t\thead = collection.find_one({'_id': l_list['head']})\n\t\t\t# Is not head?\n\t\t\tif not head['key'] == arg:\n\t\t\t\tcondition = swap_link(collection, arg, count)\n\t\t\t# Else it is the head, no condition needed\t\n\t\t\telse:\n\t\t\t\tcondition = None\n\n\t\t# Arg value does not exist in 'cache', insert it, if cache is full, delete LRU document\t\n\t\telse:\n\t\t\tadd_link(collection, arg)\n\t\t\tprint('count is')\n\t\t\tprint(count)\n\t\t\tif count > 5:\n\t\t\t\tdel_LRU(collection,arg)\n\t\t\t\tcondition = 5\n\t# Print cache to terminal\t\n\tevery = collection.find({})\n\tfor ever in every:\n\t\tprint(ever)\n\tresult = json.dumps({'key': arg, 'value': fib_val, 'condition': condition, 'count': count })\n\treturn result\n\nif __name__ == '__main__':\n\tapp.run(debug=True)\n\n# I have to manage an animation condition, and return arg (key) w/ value",
+			"file": "Hidden/tester.py",
+			"file_size": 28745,
+			"file_write_time": 132677509020000000,
+			"settings":
+			{
+				"buffer_size": 28703,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/terminal_script.js",
+			"settings":
+			{
+				"buffer_size": 3226,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "// Animation / cache display script\n\nlet swap = function(cells, cell4, cell0, start, cellsArr)\n{\n\tfor (i = cellsArr.length - 1; i >= 0; i--)\n\t{\t\n\t\tif (start == 4)\n\t\t{\n\t\t\tif (!(i === 0 ||\n\t\t\t i === 4))\n\t\t\t{\t\n\t\t\n\t\t\t\tcells[i].innerHTML = cellsArr[i - 1]\n\t\t\t}\n\t\t}\n\t\telse if (start === 3)\n\t\t{\t\n\t\t\t// ignore 0 and 4 as they relationally aren't replaced by i - 1\n\t\t\tif (!(i === 0 || i === 3 || i === 4 || i === 7))\n\t\t\t{\n\t\t\t\tcells[i].innerHTML = cellsArr[i - 1];\n\t\t\t}\n\t\t}\n\t\telse if (start === 2)\n\t\t{\n\t\t\tif (i === 1 || i === 5)\n\t\t\t{\n\t\t\t\tcells[i].innerHTML = cellsArr[i - 1];\n\t\t\t}\n\t\t}\n\t\tcells[i].style.left = \"0rem\";\n\t}\n\tcells[0].innerHTML = cell0;\n\tcells[4].innerHTML = cell4;\n}\n\nlet swapNewValue = function(cells, cellsArr=null, condition)\n{\t\n\tconst entry = document.querySelector('.animate__entry')\n\tconst fib = document.querySelector('.animate__fib')\n\tif (condition == 5)\n\t{\n\t\tcells[3].style.opacity = cells[7].style.opacity = \"1\";\n\t\tcells[3].style.rotate = cells[7].style.rotate = \"0deg\";\n\t\tcells[3].style.left = cells[7].style.left = \"0rem\";\n\t\tcells[3].style.top = \"-.05rem\"\n\t\tcells[7].style.top = \"0rem\";\n\t}\n\tif (cellsArr)\n\t{\n\t\tfor (let i = 0; i < cells.length; i++)\n\t\t{\n\t\t\tcells[i].style.left = \"0rem\"\n\t\t\tcells[i].innerHTML = cellsArr[i - 1]\n\t\t}\n\t}\n\n\tcells[0].innerHTML = entry.innerHTML;\n\tcells[4].innerHTML = fib.innerHTML;\n\tentry.remove()\n\tfib.remove()\n}\n\n\nlet cellSlide = async function(cell1, cell2, direction = \"forward\", distance = 6, speed = 50)\n{\t\n\tlet position = 0;\n\tconsole.log('cellSlide')\n\treturn new Promise((resolve, reject) => {\n\t\tconst interval = window.setInterval(() => {\n\t\t\tif (direction === \"backward\")\n\t\t\t{\n\t\t\t\tposition -= 1\n\t\t\t}\n\t\t\telse {\n\t\t\t\tposition += 1;\n\t\t\t}\n\t\t\t\n\t\t\tcell1.style.left = cell2.style.left = position.toString() + \"rem\";\n\t\t\t\n\t\t\tif (position === distance || position === (-1 * distance))\n\t\t\t{\t\n\t\t\t\tresolve()\n\t\t\t\tclearInterval(interval)\n\t\t\t}\n\t\t}, speed)\n\t})\n}\n\nlet newEntry = async function(entry)\n{\t\n\treturn new Promise((resolve, reject) => {\n\t\tconsole.log('newEntry')\n\t\tconsole.log(entry)\n\t\tconst main = document.querySelector('.main');\n\t\tconst element = document.createElement('h3');\n\t\tconst text = document.createTextNode(entry);\n\t\telement.appendChild(text);\n\t\telement.setAttribute('class', 'animate__entry');\n\t\tmain.appendChild(element);\n\n\t\tresolve()\n\t})\n}\n\nlet moveEntry = async function()\n{\t\n\tlet c = 0; \n\tlet marginTop = 34.75;\n\tlet marginLeft = -21;\n\tlet entry = document.querySelector('.animate__entry')\n\tconsole.log('moveEntry')\n\tconsole.log(entry.innerHTML)\n\t\n\treturn new Promise((resolve, reject) => {\n\t\tconst interval = window.setInterval(() => {\n\t\t\tentry.style.marginTop = (marginTop -= 1.927).toString() + \"rem\";\n\t\t\tentry.style.marginLeft = (marginLeft += .188).toString() + \"rem\";\n\t\t\tc += 1;\n\t\t\t\n\t\t\tif (c >= 16)\n\t\t\t{\t\n\t\t\t\tentry.style.font = \"3rem Arial, sans-serif\"\n\t\t\t\tentry.style.color = \"red\"\n\t\t\t\tresolve()\n\t\t\t\tclearInterval(interval)\n\t\t\t}\n\t\t}, 30)\n\t})\n}\n\n let newFib = async function(val, condition)\n {\t\n \tconst entry = document.querySelector('.animate__entry')\n\tconst main = document.querySelector('.main');\n\tconst text = document.createTextNode(val);\n\tlet element = document.createElement('h3');\n\telement.appendChild(text);\n\telement.setAttribute('class', 'animate__fib');\n\telement.style.marginTop = \"6.8rem\"\n \t\n \treturn new Promise((resolve, reject) => {\n \t\tsetTimeout(() => {\n\t \t\tmain.appendChild(element);\n\t \t\tlet marginTop = 6.8;\n\t \t\tlet c = 0;\n\t\t\tconst interval = window.setInterval(() => {\n\t \t\t\telement.style.marginTop = (marginTop += .3).toString() + \"rem\";\n\t \t\t\tc++;\n\t \t\t\tif (c >= 10)\n\t \t\t\t{\t\n\t\t\t\t\tresolve()\n\t \t\t\t\tclearInterval(interval)\n\t \t\t\t}\n\t \t\t}, 50)\n\t\t}, 200)\n \t})\n }\n\nlet LRUfall = async function(cells)\n{\n\tlet position = 2;\n\tlet fallRate = 1;\n\n\treturn new Promise((resolve, reject) => {\n\t\tconst interval = window.setInterval(() => {\n\t\t\tcells[3].style.top = cells[7].style.top = position.toString() + \"rem\";\n\t\t\tfallRate += 1;\n\t\t\tposition += 1;\n\t\t\tposition += fallRate;\n\t\t\tif (position > 45)\n\t\t\t{\t\n\t\t\t\tcells[3].style.opacity = cells[7].style.opacity = \"0\";\t\t\t\n\t\t\t\tresolve()\n\t\t\t\tclearInterval(interval)\n\t\t\t}\n\t\t}, 50)\n\t})\n}\n\nlet LRUrotate = async function(cells)\n{\n\tlet rotation = 0;\n\tlet rotations = 1;\n\tconst interval = window.setInterval(() => {\n\t\tcells[3].style.rotate = cells[7].style.rotate = (rotation += 25).toString() + \"deg\";\n\t\trotations += 1;\n\t\tif (rotations > 12)\n\t\t{\n\t\t\treturn clearInterval(interval)\n\t\t}\n\t}, 50)\n}\n\nlet LRUslide = async function(cells)\n{\n\tlet position = 0;\n\t\n\treturn new Promise((resolve, reject) => {\n\t\twindow.setTimeout(() => {\n\t\t\tconst interval = window.setInterval(() => {\n\t\t\t\tcells[3].style.left = cells[7].style.left = position.toString() + \"rem\";\n\t\t\t\tposition += .75;\n\t\t\t\tif (position >= 4)\n\t\t\t\t{\t\n\t\t\t\t\tresolve() \n\t\t\t\t}\t\n\t\t\t\tif (position > 7)\n\t\t\t\t{\t\n\t\t\t\t\tclearInterval(interval)\n\t\t\t\t}\n\t\t\t}, 50)\n\t\t}, 200)\n\t})\n}\n\n\nlet moveVertical = async function(cell1, cell2, direction = \"out\")\n{\t\n\tlet c = 0;\n\tlet position1, position2;\n\tif (direction === \"in\")\n\t{\n\t\tposition1 = Number(cell1.style.top.slice(0, -3));\n\t\tposition2 = Number(cell2.style.top.slice(0, -3));\n\t}\n\telse {\n\t\tposition1 = 0;\n\t\tposition2 = 0;\n\t}\n\treturn new Promise((resolve, reject) =>\n\t{\t\n\t\tlet interval = setInterval(() => {\n\n\t\t\tif (direction === \"in\")\n\t\t\t{\n\t\t\t\tposition1 += 1;\n\t\t\t\tposition2 -= 1;\n\t\t\t}\n\t\t\telse {\n\t\t\t\tposition1 -= 1;\n\t\t\t\tposition2 += 1;\n\t\t\t}\n\t\t\tcell1.style.top = position1.toString() + \"rem\";\n\t\t\tcell2.style.top = position2.toString() + \"rem\";\n\t\t\tc++\n\t\t\t\n\t\t\tif (c > 6)\n\t\t\t{\t\n\t\t\t\tresolve()\n\t\t\t\tclearInterval(interval)\n\t\t\t}\n\t\t}, 50)\n\t})\n}\n\n//////////////\n\nlet btnFlag = false;\n\nlet displayManager = async function(condition, count=null, entry, val, exists)\n{\t\n\tlet cells = document.getElementsByClassName('table__cell')\n\tconsole.log(cells)\n\tterminalEntry(entry)\n\tif (entry == \"c\" ||\n\t\tentry == \"C\" ||\n\t\t!exists)\n\t{\n\t\tfor (i = 0; i < cells.length; i++)\n\t\t{\n\t\t\tcells[i].innerHTML = \"\"\n\t\t}\n\t\tcellsArr = null;\n \t}\n \telse{\n \t\tcellsArr = Array.from(cells, (item) => item.innerHTML)\n \t}\n\n\tif (condition === 1)\n\t{\n\t\tnewEntry(entry, val)\n\t\t//  count keeps track of the number of existing key/vals\n\t\tif (count === 3)\n\t\t{\n\t\t\tawait cellSlide(cells[2], cells[6])\n\t\t}\n\t\tif (count === 2 || \n\t\t\tcount === 3)\n\t\t{\n\t\t\tawait cellSlide(cells[1],  cells[5])\n\t\t}\n\t\tif (count === 1 || \n\t\t\tcount === 2 || \n\t\t\tcount === 3)\n\t\t{\n\t\t\tawait cellSlide(cells[0], cells[4])\n\t\t}\n\t\tawait moveEntry()\n\t\tawait newFib(val, condition)\n\t\tswapNewValue(cells, cellsArr, condition)\t\n\t}\n\n\telse if (condition === 5)\n\t{\n\t\tnewEntry(entry, val)\n\t\tlet slide = await LRUslide(cells)\n\t\tawait LRUrotate(cells)\n\t\tawait LRUfall(cells)\n\t\tawait cellSlide(cells[2], cells[6])\n\t\tawait cellSlide(cells[1], cells[5])\n\t\tawait cellSlide(cells[0], cells[4])\n\t\tawait moveEntry()\n\t\tawait newFib(val)\n\t\tswapNewValue(cells, cellsArr, condition) \n\t}\n\t// Last position swap\n\telse if (condition === 4)\n\t{\n\t\tawait moveVertical(cells[3], cells[7])\n\t\tawait cellSlide(cells[3], cells[7], \"backward\", 18, 40)\n\t\tawait cellSlide(cells[2], cells[6])\n\t\tawait cellSlide(cells[1], cells[5])\n\t\tawait cellSlide(cells[0], cells[4])\n\t\tawait moveVertical(cells[3], cells[7], \"in\")\n\t\tswap(cells, cellsArr[7], cellsArr[3], 4, cellsArr)\n\t}\n\t// 3rd position swap\n\telse if (condition === 3)\n\t{\n\t\tawait moveVertical(cells[2], cells[6])\n\t\tawait cellSlide(cells[2], cells[6], \"backward\", 12, 40)\n\t\tawait cellSlide(cells[1], cells[5])\n\t\tawait cellSlide(cells[0], cells[4])\n\t\tawait moveVertical(cells[2], cells[6], \"in\")\n\t\tswap(cells, cellsArr[6], cellsArr[2], 3, cellsArr)\n\t}\n\t// 2nd position swap\n\telse if (condition === 2)\n\t{\n\t\tawait moveVertical(cells[1], cells[5])\n\t\tawait cellSlide(cells[1], cells[5], \"backward\", 6, 40)\n\t\tawait cellSlide(cells[0], cells[4])\n\t\tawait moveVertical(cells[1], cells[5], \"in\")\n\t\tswap(cells, cellsArr[5], cellsArr[1], 2, cellsArr)\n\t}\n\tbtnFlag = false\n\tterminalManager(condition, key)\n\treturn\t\t\n}\n\ndocument.querySelector('.user__btn').addEventListener('click', (event) => {\n\n\tif (!btnFlag)\n\t{\t\n\t\tlet entry = document.querySelector('.user__terminal')\n\t\tif (!entry.value)\n\t\t{\n\t\t\tconsole.log(entry.value)\n\t\t\treturn\n\t\t}\n\t\tconsole.log(entry.value)\n\t\tbtnFlag = true;\n\t\tlet xhttp = new XMLHttpRequest();\n\t\txhttp.open('post', '/check')\n\t\txhttp.setRequestHeader('Content-Type', 'text/plain; charset=UTF-8')\n\n\t\txhttp.onload = () => {\n\t\t\tif (xhttp.readyState === 4 && xhttp.status === 200)\n\t\t\t{\t\n\t\t\t\tconsole.log('xhttp.response')\n\t\t\t\tresponse = JSON.parse(xhttp.responseText)\n\t\t\t\tif (response == null)\n\t\t\t\t{\n\t\t\t\t\treturn\n\t\t\t\t}\n\t\t\t\t// Empty user terminal value\n\t\t\t\tentry.value = \"\"\n\t\t\t\t//  Define response\n\t\t\t\tcondition = response['condition']\n\t\t\t\tcount = response['count']\n\t\t\t\tkey = response['key']\n\t\t\t\tvalue = response['value']\n\t\t\t\texists = response['exists']\n\n\t\t\t\tconsole.log(response)\n\t\t\t\tconsole.log('session')\n\t\t\t\tconsole.log(document.cookie)\n\t\t\t\t\n\t\t\t\tdisplayManager(condition, count, key, value, exists)\n\t\t\t\tbtnFlag = false\n\t\t\t}\n\t\t}\n\t\txhttp.send(entry.value)\n\t}\n\telse {\n\t\tevent.preventDefault()\n\t}\n})\n\n// event.stopPropagation()\n\n\n\n",
+			"file": "static/cache_script.js",
+			"file_size": 8941,
+			"file_write_time": 132683713730000000,
+			"settings":
+			{
+				"buffer_size": 8941,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/index.html",
+			"settings":
+			{
+				"buffer_size": 3025,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/cache_styles.css",
+			"settings":
+			{
+				"buffer_size": 3692,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"virtua",
+				"Virtualenv: Add directory"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 135.0,
+		"history":
+		[
+			"pip install psycopg2",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/Hidden",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/Hidden/Notes",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/templates"
+	],
+	"file_history":
+	[
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/static/ytdata.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/Hidden/Notes/python cost of len().png",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/static/cache_script_copy.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/templates/index_copy.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/static/cache_script_holder.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/Sub1/static/final.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/Sub1/templates/layout.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/Sub1/templates/all.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/Sub1/templates/edit.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/Sub1/templates/sidebar.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/config.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/Sub1/__init__.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/templates/index.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/static/test.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/static/test.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/static/cache_styles.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/db.perm.insert({title: 'Post one',",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/.env",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/static/cache_script.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/Hidden/Notes/node structure.png",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/cache3.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Cache text_editor version/cache2.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/helpers.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final turned into Harvard/final.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data/Sub2/Sub2/static/ytdata_scripts.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final turned into Harvard/static/final.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/Sub1/static/styles.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/README.md",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/Hidden/tester.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data/Sub2/Sub2/templates/layout.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data/Sub2/Sub2/templates/index.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data Local complete/templates/index.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data Local complete/static/ytdata.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/New Cache/static /cache_styles.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Cache/static /cache_styles.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Cache/static /cache_styles",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Cache/cache3.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Cache/config.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data/Sub2/Sub2/__init__.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data/Sub2/config.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Cache/templates/index.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Cache/cache2.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Cache/cache_revamp.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Cache/fib.csv",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Cache/cache.py",
+		"/Users/jasonbergland/Desktop/upload_path",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1615509076/ec2/var/www/Sub2/Sub2/templates/layout.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1615528435/ec2/var/www/Sub2/Sub2/static/ytdata.css",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1615509066/ec2/var/www/Sub2/Sub2/templates/index.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1615508873/ec2/var/www/Sub2/Sub2/templates/disabled.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1615508269/ec2/var/www/Sub2/Sub2/static/ytdata_scripts.js",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1615508243/ec2/var/www/Sub2/Sub2/__init__.py",
+		"/Users/jasonbergland/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/ec2",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1615440222/ec2/var/www/Sub2/Sub2/static/ytdata_scripts.js",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1615441165/ec2/var/www/Sub2/Sub2/templates/query.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1615440007/ec2/var/www/Sub2/Sub2/__init__.py",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614904900/ec2/var/www/Sub2/Sub2/templates/query.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614904923/ec2/var/www/Sub2/Sub2/templates/layout.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614904913/ec2/var/www/Sub2/Sub2/templates/index.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614904890/ec2/var/www/Sub2/Sub2/static/ytdata_scripts.js",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614904954/ec2/var/www/Sub2/Sub2/static/ytdata.css",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614904867/ec2/var/www/Sub2/Sub2/__init__.py",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614818331/ec2/var/www/Sub2/Sub2/templates/index.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614826717/ec2/var/www/Sub2/Sub2/templates/layout.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614826657/ec2/var/www/Sub2/Sub2/static/ytdata.css",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614825360/ec2/var/www/Sub2/Sub2/templates/query.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data/ytdata.py",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614818305/ec2/var/www/Sub2/Sub2/static/ytdata_scripts.js",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614827628/ec2/var/www/Sub2/config.py",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614818277/ec2/var/www/Sub2/Sub2/__init__.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data/templates/index.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614721796/ec2/var/www/Sub2/Sub2/templates/index.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614728851/ec2/var/www/Sub2/config.py",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614721711/ec2/var/www/Sub2/Sub2/static/ytdata_scripts.js",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614721496/ec2/var/www/Sub2/Sub2/__init__.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data/static/ytdata_scripts.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Week 8/Finance later/history.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/Sub1/templates/sorry.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/Sub1/templates/category.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614466949/ec2/var/www/Sub2/Sub2/templates/query.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614466892/ec2/var/www/Sub2/Sub2/templates/index.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614466848/ec2/var/www/Sub2/Sub2/templates/layout.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614467082/ec2/var/www/Sub2/Sub2/__init__.py",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614475067/ec2/var/www/Sub2/Sub2/static/ytdata_scripts.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Week 8/Finance later/register.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/week 7/Similarities App/templates/index.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/week 7/Similarities App/templates/error.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/week 7/Similarities App/templates/compare.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/week 7/Survey App copy/templates/error.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/week 7/Survey App copy/templates/sheet.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/week 7/Survey App copy/templates/form.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Week 8/Finance first run/quoted.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/week 7/Survey App copy/templates/layout.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Week 8/Finance first run/quote.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/Sub1/templates/add.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/Sub1/templates/index.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/Sub1/templates/location.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614385001/ec2/var/www/Sub2/Sub2/__init__.py",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614385693/ec2/var/www/Sub2/Sub2/static/ytdata_scripts.js",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614386037/ec2/var/www/Sub2/Sub2/templates/index.html",
+		"/private/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614386037/ec2/var/www/Sub2/Sub2/templates/query.html",
+		"/private/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614389057/ec2/var/www/Sub2/Sub2/templates/layout.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614389057/ec2/var/www/Sub2/Sub2/templates/index.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614297767/ec2/var/www/Sub2/Sub2/templates/index.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614297755/ec2/var/www/Sub2/Sub2/static/ytdata_scripts.js",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614297717/ec2/var/www/Sub2/Sub2/__init__.py",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614199993/ec2/var/www/Sub2/sub2.wsgi",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614207819/ec2/var/www/Sub2/config.py",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614209891/ec2/var/www/Sub2/Sub2/templates/index.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614209881/ec2/var/www/Sub2/Sub2/static/ytdata_scripts.js",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614198542/ec2/var/www/Sub2/Sub2/__init__.py",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614199518/ec2/var/www/FLASKApp/FLASKApp/__init__.py",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614128498/ec2/var/www/Sub2/config.py",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614128846/ec2/var/www/Sub1/sub1.wsgi",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614128801/ec2/var/www/Sub2/sub2.wsgi",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614114619/ec2/var/www/Sub2/Sub2/__init__.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data/.env",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1614033925/ec2/var/www/Sub2/Sub2/__init__.py",
+		"/Users/jasonbergland/Documents/jack_example.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data/templates/error.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data/static/ytdata.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/YT_Data/templates/disabled.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50_Harvard/Final/config.py",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1612909176/ec2/var/www/Sub1/Sub1/templates/register.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1612907247/ec2/var/www/Sub1/Sub1/templates/layout.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1612907217/ec2/var/www/Sub1/Sub1/templates/login.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1612912057/ec2/var/www/Sub1/Sub1/templates/index.html",
+		"/var/folders/g8/qb4b5sxx369fvykv0ng_12_00000gn/T/sublime-sftp-browse-1612914750/ec2/var/www/Sub1/Sub1/templates/all.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"SESSION_COOKIE_SAMESITE",
+			"samesite",
+			"samesite=",
+			"<code>",
+			"None",
+			"tr",
+			"td",
+			"'None'",
+			"table__row",
+			"minutes",
+			"terminal__terminal",
+			"terminal_icon_",
+			"terminal__terminal",
+			"terminal__icon",
+			";\n",
+			"terminal__icon",
+			"table__wrapper",
+			"manage_db",
+			"count",
+			"identify_user",
+			"get_fib(",
+			"green",
+			"Remove",
+			"session.permanent = True",
+			"cells[i].innerHTML ",
+			"cells[i].innerHTML",
+			"grey",
+			"days",
+			"createElement",
+			"messageBody",
+			"key",
+			"const",
+			"entry",
+			"clearInterval",
+			"settingInterval",
+			"cells[4]",
+			"cells[3]",
+			"cells",
+			"cells[2",
+			"lastCell2",
+			"lastCell1",
+			"lastCell2",
+			"lastCell1",
+			"lastCell2",
+			"lastCell1",
+			"thirdCell2",
+			"thirdCell1",
+			"secondCell2",
+			"secondCell1",
+			"firstCell2",
+			"firstCell1",
+			"swap2",
+			"swap",
+			" elemen",
+			"element",
+			"animate__entry",
+			"count",
+			"fib_val",
+			"pos",
+			"get_fib",
+			"count",
+			"it exists",
+			"h_map",
+			"cell4",
+			"slide",
+			"json",
+			"jsonify",
+			"condition",
+			"xhttp.responseText",
+			"btnFlag",
+			"firstCell1",
+			"del_LRU",
+			"insert_cache",
+			"swap(",
+			"ot head['key'] == arg:\n\t\t\t\tswap(",
+			"createUser",
+			"arg_check_exist",
+			"createUser",
+			"results",
+			"first",
+			"cur",
+			"key",
+			"shutil",
+			"cache",
+			"+srv",
+			"login_required",
+			"==",
+			"xttp",
+			"===",
+			"condition",
+			"function()",
+			"flag",
+			"c",
+			"Top",
+			"top",
+			"cellS",
+			"cells",
+			"newEntry",
+			"\t\t\tposition += 1;",
+			"clear",
+			"create",
+			"</p>",
+			"lastRow2",
+			"lastRow1",
+			"lruRow2",
+			"lruRow1",
+			"lruRow2",
+			"row2",
+			"row1",
+			"fallRate",
+			"position",
+			"</p>",
+			"<p class=\"table__value\">",
+			"table__cell",
+			"lastChild",
+			"<i",
+			";\n",
+			"h6",
+			"cell__value",
+			"\"cell\"",
+			"\"cell",
+			"row",
+			"table",
+			"row",
+			"<p>",
+			">12</td>",
+			"display"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "cache3.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2525,
+								2525
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2525,
+										2526
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2517,
+										2518
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1313.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								465
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/index_copy.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Hidden/tester.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28703,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4680,
+								4680
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "static/terminal_script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1501,
+								1501
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1509,
+										1510
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1501,
+										1502
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 876.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "static/cache_script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7458,
+								7458
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										7457,
+										7458
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										7179,
+										7180
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5952.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1297,
+								1297
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1466,
+										1468
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1273,
+										1275
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "static/cache_styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2626,
+								2626
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2648,
+										2649
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2606,
+										2607
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2732.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 126.0
+	},
+	"output.exec":
+	{
+		"height": 270.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "Packages/User/letsgo.sublime-build",
+	"project": "cache.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"final.py"
+			],
+			[
+				"g",
+				"~/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/02_11_change_position_of_char.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

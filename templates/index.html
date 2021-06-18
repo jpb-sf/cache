@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+	<title>{% block title %} Something{% endblock %}</title>
+	<link rel="stylesheet" href="/static/cache_styles.css">
+	<!-- <link rel="stylesheet" href="{{ url_for('static', filename='cache_styles.css')}}"> -->
+</head>
+<body class="body">
+	<nav class="nav">
+		<h3 class="logo">LRU Cache </br> Simulation</h3>
+		<div class="info"></div>
+	</nav>
+	<main class="main">
+		<h4>Cache Memory</h4>
+		<div class="table__wrapper">
+			<section class="table__index">
+				<h4 class="index__position">Postiton in <br>sequence</h4>
+				<h4 class="index__number">Fibonnaci number</h4>
+			</section>
+			<!-- Table border -->
+			<table class="table1">
+				<tr class="table__row">
+					<td class="table__cell1"></td>
+					<td class="table__cell1 bg_color__grey"></td>
+					<td class="table__cell1"></td>
+					<td class="table__cell1 bg_color__grey"></td>
+				</tr>
+				<tr class="table__row">
+					<td class="table__cell1"></td>
+					<td class="table__cell1 bg_color__grey"></td>
+					<td class="table__cell1"></td>
+					<td class="table__cell1 bg_color__grey"></td>
+				</tr>
+			</table>
+			<!-- Table values -->
+			<table class="table">
+				<tr class="table__h-row">
+					<td class="table__h-cell">Most recent</td>
+					<td class="table__h-cell"></td>
+					<td class="table__h-cell"></td>
+					<td class="table__h-cell">LRU</td>
+				</tr>
+				<tr class="table__row">
+					<td class="table__cell">{% if cache %} {{ cache[0]['key'] }} {% endif %} </td>
+					<td class="table__cell">{% if cache|length > 1 %} {{ cache[1]['key'] }} {% endif %}</td>
+					<td class="table__cell">{% if cache|length > 2 %} {{ cache[2]['key'] }} {% endif %}</td>
+					<td class="table__cell">{% if cache|length > 3 %} {{ cache[3]['key'] }} {% endif %}</td>
+				</tr>
+				<tr class="table__row">
+					<td class="table__cell">{% if cache %} {{ cache[0]['val'] }} {% endif %} </td>
+					<td class="table__cell">{% if  cache|length > 1 %} {{ cache[1]['val'] }} {% endif %} </td>
+					<td class="table__cell">{% if  cache|length > 2 %} {{ cache[2]['val'] }} {% endif %}</td>
+					<td class="table__cell">{% if  cache|length > 3 %} {{ cache[3]['val'] }} {% endif %}</td>
+				</tr>
+			</table>
+		</div>
+		
+
+		<div class="terminal__box">
+			<img class="terminal__icon" src="/static/images/terminal_icon_r.svg" alt="user">
+			<code class=terminal__line> Hello, please enter fibbonaci position (0–20)</code>
+			<br>
+
+		</div>
+		<div class="user__box">
+			<img class="user__graphic" src="/static/images/user_icon.svg" alt="user">
+			<textarea class="user__terminal"></textarea>
+			<div class="user__btn">
+				<p class="user__btntext">enter</p>
+				<div class="user__cursor"></div>
+			</div>
+		</div>
+	</main>
+	<script type="text/javascript" src="{{ url_for('static', filename='terminal_script.js') }}"/></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='cache_script.js') }}"/></script>
+</body>
+</html>

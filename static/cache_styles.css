@@ -1,0 +1,242 @@
+body {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	position: relative;;
+	font-size: 14px;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+dl, dt, dd, ol, ul, li,
+table, tr, th, td,
+article, menu, nav, section, summary
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;*/
+	/*font: inherit;*/
+	vertical-align: baseline;
+}
+
+p, th, td, tr, h4, section, div, textarea {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+table  {
+	border-collapse: collapse;
+	border-spacing:0;
+}
+
+/*======= Modifiers =========*/
+
+.bg_color__grey
+{
+	background-color: #fafafa;
+}
+.bg_color__red
+{
+	background-color: #ff0000;
+}
+.bg_color__green
+{
+	background-color: #00ff00;
+}
+.bg_color__blue
+{
+	background-color: #0000ff;
+}
+.bg_color__yellow
+{
+	background-color: #ffff00;
+}
+
+/*===========================*/
+
+.body    {
+	background-color: white;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 1rem 0 0 0;
+	/*height: 5rem;*/
+
+}
+	.nav > .logo {
+		margin-left: 2rem;
+	}
+	.nav > .info {
+		height: 2.5rem;
+		width: 2.5rem;
+		border-radius: 50%;
+		background-color: orange;
+		margin: 1rem 1rem 0 0;r
+	}
+
+.main {
+	position: relative;
+	margin-top:  2rem;
+	display: grid;
+	width: 100%;
+	/*height: 100vh;*/
+	justify-items: center;
+}
+
+.table__wrapper {
+	display: flex;
+	width: max-content;
+}
+	
+	.table__index {
+		margin-left: -11rem;
+		width: 11rem;
+		height: 13.5rem;
+		text-align: right;
+	}
+		.index__position {
+			margin: 4rem 1rem 0 0 ;
+		}
+
+		.index__number {
+			margin: 4rem 1rem 0 0;
+		}
+	.table {
+		position: relative;
+		margin-top: .7rem;
+	}
+		.table__h-row {
+			position: absolute;
+			margin-top: -.5rem;
+		}
+
+	.table1 {
+		position: absolute;
+		margin-top: 1.5rem;
+	}
+		.table__row {
+			position: relative;
+			z-index: -5;
+		}	
+			.table__h-cell {
+				height: 1rem;
+				width: 6rem;
+				text-align: center;
+				font-style: italic;
+			}
+			.table__cell1 {
+				position: relative;
+				height: 6rem;
+				width: 6rem;
+				border: 2px solid #999;
+				padding: .5rem;
+			
+			}
+			.table__cell {
+				position: relative;
+				/*margin-top: 1rem;*/
+				height: 6rem;
+				width: 6rem;
+				border: 0px solid green;
+				text-align: center;
+				font: 3rem Arial, sans-serif;
+				color: #777;
+				transform: translateY(24%);
+			}
+
+.terminal__box {
+	margin: 3rem 0 0 0;
+	padding: .25rem .25rem;
+	width: 24rem;
+	height: 16rem;
+	border: solid 2px #999 ;
+	box-sizing: border-box;
+	overflow-y: scroll;
+}	
+	.terminal__line {
+		font-size: 14px;
+	}
+	.terminal__userline{
+		font-size: 16px;
+		font-style: bold;
+	}	
+		.terminal__icon, .terminal__user {
+			height: .75rem;
+			font-size: 14px
+		}
+		.terminal__user {
+			margin-left: .1rem;
+		}
+
+.user__box {
+	display: grid;
+	grid-template-columns: 3rem 20rem 4rem;
+	grid-template-rows: 3rem;
+	justify-content: center;
+	width: 26rem;
+	margin-left: -3rem;
+
+}
+	.user__graphic {
+		margin: .5rem 0 0 .5rem;
+		height: 2rem;
+		width: 2rem;
+	}
+	.user__terminal {
+		font-size: 1rem;
+		width: 20rem;
+		height: 3rem;
+		padding: 1rem 0 0 .75rem;
+		resize: none;
+		border-top: none;
+	}
+	.user__btn {
+		position: relative;
+		display: grid;
+		background-color: orange;
+		width: 4rem;
+	}
+		.user__btntext {
+			margin: 1rem 0 0 .9rem;
+		}
+		
+		.user__cursor {
+			position: absolute;
+			height: 1.5rem;
+			width: 1.5rem;
+			background-color: #DDD;
+			margin-top: .8rem;
+			margin-left: -19.5rem;
+		}
+
+.animate__entry {
+	position: absolute;
+	margin-top: 34.3rem;
+	margin-left: -21.8rem;
+}
+
+.animate__fib {
+	position: absolute;
+	/*margin-top: 9.8rem;*/
+	margin-left: -18rem;
+	font: 3rem Arial, sans-serif;
+	color:red;
+}
+
+
+
+
+
+
+
+
+
