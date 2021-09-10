@@ -9,41 +9,41 @@ import uuid
 import re
 from flask import Flask, request, session, render_template, redirect, make_response, url_for, json, jsonify
 import config
-import pymongo
 from bson.objectid import ObjectId
+import pymongo
 from threading import Timer
-# from apscheduler.schedulers.background import BackgroundScheduler
-
-
-""" Demonstrating Flask, using APScheduler. """
 
 """
 Mock Cache LRU program uses a double linked-list for fast insertion/deletion of cache values,
-along with keeping track of 'LRU order.' The program also uses a dictionary to 'hash map' key/vals
+along with keeping track of 'LRU order.' The program also uses a dictionary to 'hash map' keys to the linked-list
 for the fast lookup of values. As lookup is slow in a linked-list, and insertion/deletion 
 is slower in a hashmap, the program uses best of both worlds; a linked-list, and hash-map 
 for a smooth LRU cache. 
-"""
+"""     
 
 app = Flask(__name__)
 app.config.from_object('config.Development')
 
 
-client = pymongo.MongoClient('localhost:27017')
+client = pymongo.MongoClient(config.Production.MONGO_URI)
 db = client['lru']
-perm = db['perm']
-cache = db['cache']
+
+@app.errorhandler(404)
+def server_error(error):
+	return redirect('/')
 
 def manage_db():
 	# loop through collection names
 	for col in db.list_collection_names():
-		# Select the date of origin segment baked into the collection name when created
+		
+		# Select the 'date of origin' segment baked into the db's collection names
 		result = re.search('\.(.*)\.', col)
-		time_existed = int(time.time() - int(result.group(1)))
+		try:
+			time_existed = int(time.time() - int(result.group(1)))
+		except:
+			continue
 
 		if time_existed > 120:
-			print(col)
-			print('dropped')
 			cur = db.get_collection(col)
 			cur.drop()
 			
@@ -54,22 +54,19 @@ class RepeatTimer(Timer):
 				self.function(*self.args, **self.kwargs)
 
 today = datetime.today()
-noon = today.replace(day=today.day, hour=12, minute=0, second=0, microsecond=0) + timedelta(days=3)
+noon = today.replace(day=today.day, hour=12, minute=0, second=0, microsecond=0) + timedelta(days=1)
 wait = (noon - today).total_seconds()
 secs = 60
 
 timer = RepeatTimer(wait, manage_db)
-timer.start()
+timer.start() # timer.cancel() optional
 
-
-# timer.cancel()
 #==============
 
 def fib(n):
 	try:
 		n = int(n)
 	except:
-		print('fib exception has occurred')
 		return
 	if n == 0:
 		return "zero"
@@ -80,25 +77,25 @@ def fib(n):
 	else:
 		return fib(n - 1) + fib(n - 2)
 
-
 def send_cache(collection):
 	# if collection.find_one({'_id': 'linked-list'}):
 	l_list = collection.find_one({'_id': 'linked-list'})
 	address = l_list['head']
 	cache_data = []
+	# Loop through 'linked-list' of documents
 	while address:
+		# find/get document with curent 'address'
 		results = collection.find_one({'_id': address})
+		# add cached values to cache_data list
 		cache_data.append({'key': results['key'], 'val': results['value']})
+		# update address variable to the next
 		address = results['nex']
 	return cache_data
 
-def identify_user(cache_manager=False):
+def identify_user(caller):
 	# Check if session key exists
 	if session:
-		print('hello')
-		print(session)
 		if session.get('id'):
-			print('id')
 			# Loop through collection names
 			for col in db.list_collection_names():
 					# Check if session id exists as a collection name
@@ -107,36 +104,28 @@ def identify_user(cache_manager=False):
 						# return existing session id as the continued session id
 						return {'exists': True, 'id': col}
 	# If no session id recognized and when program has received entry from user, id is assigned and returned to cache_manager function
-	if cache_manager:
-			print('session doesnt exist')
+	if caller == 'cache_manager':
 			new_id = str(uuid.uuid4()) + "." + str(time.time())
 			session['id'] = new_id
 			return {'exists': False, 'id': new_id}
 	# if unidentified user/ip adress (no session) has accessed home page. Session id and DB collection isn't created until first entry received
-	else:
-		return {'exists': False, 'id': False}
+	return {'exists': False, 'id': False}
 
 @app.route('/')
 def home():
 	session.permanent = True
-	user = identify_user()
-	print('user')
-	print(user)
+	user = identify_user('home')
 	
-	# user_id = request.cookies.get('YourSessionCookie')
-	response = make_response(render_template('index.html'))
-	response.set_cookie(key='YourSessionCookie', value='something', max_age=(1000*60*60*24)*3, secure=False, httponly=True, samesite='Lax')
-	# response.delete_cookie('YourSessionCookie')
-	# return response
 	if user['exists']:
 		session['id'] = user['id']
 		collection = db[session['id']]
 		cache = send_cache(collection)
+		# return home page 'index' with 'cache' values (list of dictionaries of key/val fibonacci pairs user has previously entered)
 		return render_template('index.html', cache=cache)
 	else:
-		# return render_template('index.html')
-		return response
-		
+		# return home page
+		return render_template('index.html')
+
 
 def add_first_link(collection, arg):
 	fib_val = fib(arg)
@@ -172,10 +161,8 @@ def check_arg_exist(h_map, arg):
 	for extract in h_map:
 		#loop through a list of extracted value's keys
 		for i in list(extract.keys()):
-			print(i)
 			if i == arg:
 				exists = True
-				print('It exists')
 	return exists
 
 def swap_link(collection, arg, count):
@@ -190,14 +177,9 @@ def swap_link(collection, arg, count):
 			nex = cur['nex']
 			prev = cur['prev']
 			condition = i
-			print('swap')
-			print(swap)
 			break
 		else:
 			next_node = cur['nex']
-	print(swap)
-	print(nex)
-	print(prev)
 
 	collection.update({'_id': prev},
 		{
@@ -240,7 +222,6 @@ def swap_link(collection, arg, count):
 			})
 
 	else:
-		print('cmon', swap)
 		collection.update({'_id': 'linked-list'},
 			{
 				"$set": {'head': swap}
@@ -260,8 +241,6 @@ def add_link(collection, arg):
 		})
 	new_node = collection.find_one({'key': arg}) ######
 	address = new_node['_id']
-	print('address is')
-	print(address)
 	
 	# Update the was 1st doc/node, which is now 2nd node's 'prev' value to point towards the new first (new arg) document/node
 	collection.update({'_id': l_list['head']},
@@ -313,50 +292,47 @@ def get_fib(collection, arg):
 def clear_cache(arg):
 	db.drop_collection(session['id'])
 	result = json.dumps({'key': arg, 'value': None, 'condition': None, 'count': None, 'exists': None })
-	print('cache is being cleared')
 	return result
 
 
 @app.route('/check', methods=['POST'])
 def	cache_manager():
-
 	session.permanent = True
 	# Check if session id is in database
-	status = identify_user(True)
+	status = identify_user('cache_manager')
 	session['id'] = status['id']
-	# this value is used as a saftey in case cache is emptied while old values for old cache are still present on the site (front-end)
-	user_exists = status['exists']	# Set collection to corresponding session in use
+	# 'exists' bool is used for clearing of front end cache if back-end does not exist
+	exists = status['exists']	#
 	collection = db[session['id']]
-	print(session['id'])
 	# Receive value from front end
 	arg = request.get_data().decode('UTF-8')
 	if arg == None:
 		return
 
 	if arg == "c" or arg == "C":
-		print('lets call clear cache')
 		return clear_cache(arg)
 	# Check the number of existing key/val pairs
 	results = collection.find({})
 	count = results.count()
 
+	# values returned to front end 
 	condition = None
 	fib_val = None
 
-	# If new user build cache (hashmap linked-list)
+	# If new user, build cache (hashmap linked-list)
 	if count == 0:
 		# add first link (document)
 		fib_val = add_first_link(collection, arg)
-		# creates foundation of cache db data structure (linked-list head/tail and hashmap dictionary) 
+		# call buld_cache: creating foundation of cache db data structure (linked-list document w/ head/tail vals, along with the hashmap dictionary) 
 		build_cache(collection, arg)
-		condition = 1
+		# condition = 1
 	
 	# If user exists, check if submitted argument exists already or not	
 	else:
 		h_map = collection.find({'_id': 'hashmap'})
 		arg_exists = check_arg_exist(h_map, arg)
 
-		# If arg exists, is us the head value of the linked-list? (The most recently used), do nothing, otherwise swap
+		# If arg exists, is arg the head value of the linked-list? (The most recently used), do nothing, otherwise swap
 		if arg_exists:
 			l_list = collection.find_one({'_id': 'linked-list'})
 			head = collection.find_one({'_id': l_list['head']})
@@ -367,31 +343,28 @@ def	cache_manager():
 			else:
 				condition = None
 
-		# Arg value does not exist in 'cache', insert it, if cache is full, delete LRU document	
+		# Arg value does not exist in 'cache', insert it, if cache is full, delete the LRU document	
 		else:
 			add_link(collection, arg)
 			if count >= 6:
-				del_LRU(collection,arg)
+				del_LRU(collection, arg)
 				condition = 5
 			else:
 				count -= 2
-
+	# if user has one or less lookups cached, condition is 1
 	if count <= 3:
 		 condition = 1
-	
+	# find fib_val 
 	if not fib_val:
 		fib_val = get_fib(collection, arg)
 	# Print cache to terminal	
 	every = collection.find({})
 	for ever in every:
-		print(ever)
-	result = json.dumps({'key': arg, 'value': fib_val, 'condition': condition, 'count': count, 'exists': user_exists })
+		result = json.dumps({'key': arg, 'value': fib_val, 'condition': condition, 'count': count, 'exists': exists })
 	return result
 
 if __name__ == '__main__':
 	app.run(debug=True)
 
-
-# I have to manage an animation condition, and return arg (key) w/ value
 
 

@@ -1,3 +1,4 @@
+
 body {
 	box-sizing: border-box;
 	font-family: sans-serif;
@@ -13,8 +14,6 @@ article, menu, nav, section, summary
 	margin: 0;
 	padding: 0;
 	border: 0;
-	/*font-size: 100%;*/
-	/*font: inherit;*/
 	vertical-align: baseline;
 }
 
@@ -31,25 +30,17 @@ table  {
 
 /*======= Modifiers =========*/
 
-.bg_color__grey
+.color__red
 {
-	background-color: #fafafa;
+	color: #ff0000;
 }
-.bg_color__red
+.color__green
 {
-	background-color: #ff0000;
+	color: #00ff00;
 }
-.bg_color__green
+.color__black
 {
-	background-color: #00ff00;
-}
-.bg_color__blue
-{
-	background-color: #0000ff;
-}
-.bg_color__yellow
-{
-	background-color: #ffff00;
+	color: #444;
 }
 
 /*===========================*/
@@ -69,11 +60,9 @@ table  {
 	justify-content: space-between;
 	width: 100%;
 	margin: 1rem 0 0 0;
-	/*height: 5rem;*/
-
 }
 	.nav > .logo {
-		margin-left: 2rem;
+		margin: 1rem 0 0 2rem;
 	}
 	.nav > .info {
 		height: 2.5rem;
@@ -82,13 +71,42 @@ table  {
 		background-color: orange;
 		margin: 1rem 1rem 0 0;r
 	}
+	
+.nav__homelink--wrapper {
+	position: relative;
+	margin-top: 0rem;
+	width: 9.5rem;
+	height: 4rem;
+	z-index: 1;
+}
+	.nav__homelink--link {
+		position: absolute;
+		display: flex;
+		margin:.5rem 0 0 1rem;
+		width: max-content;
+		text-decoration: none;
+	}
+	.nav__homelink--rule {
+		position: absolute;
+		border: 2px solid #BBB;
+		margin: .5rem 0 0 3rem;
+		width: 3rem;
+	}
+	.nav__homelink--text {
+		color: #BBB;
+		margin-left: 1rem;
+		margin-top: 1rem;
+		font-size: .9rem;
+		text-decoration: none;
+		justify-content: right;
+		text-align: right;
+	}
 
 .main {
 	position: relative;
-	margin-top:  2rem;
+	margin-top:  1rem;
 	display: grid;
 	width: 100%;
-	/*height: 100vh;*/
 	justify-items: center;
 }
 
@@ -102,68 +120,98 @@ table  {
 		width: 11rem;
 		height: 13.5rem;
 		text-align: right;
-	}
-		.index__position {
-			margin: 4rem 1rem 0 0 ;
+	}	
+		.index__container {
+			width: 8rem;
+			margin: 3rem 0 0 3rem;
+		}
+			.index__position {
+				margin: 4rem 1rem 0 0 ;
+			}
+
+			.index__number {
+				margin: 4rem 1rem 0 0;
+			}
+
+		@media screen and (max-width: 740px) {
+
+			.index__container {
+				width: 5rem;
+				margin: 4.25rem 0 0 6.5rem;
+			}
+	
+			.index__position , .index__number {
+				font-size: .7rem;
+			}
 		}
 
-		.index__number {
-			margin: 4rem 1rem 0 0;
+		@media screen and (max-width: 528px) {
+
+			.index__position , .index__number {
+				display: none;
+			}
 		}
-	.table {
-		position: relative;
-		margin-top: .7rem;
-	}
-		.table__h-row {
-			position: absolute;
-			margin-top: -.5rem;
-		}
+
 
 	.table1 {
 		position: absolute;
-		margin-top: 1.5rem;
+		margin-top: .5rem;
 	}
-		.table__row {
+		.table__h-row {
 			position: relative;
-			z-index: -5;
-		}	
+		}
 			.table__h-cell {
 				height: 1rem;
 				width: 6rem;
 				text-align: center;
 				font-style: italic;
 			}
+		.table__row {
+			position: relative;
+			z-index: -50;
+			height: 6rem;
+		}
+		.table__row td:nth-child(even) {
+			background-color: #EEE;
+
+		}	
 			.table__cell1 {
 				position: relative;
-				height: 6rem;
 				width: 6rem;
-				border: 2px solid #999;
+				border: 1px solid #999;
 				padding: .5rem;
-			
 			}
+	.table {
+		position: relative;
+		margin-top: 3rem;
+	}
+		.table__valrow {
+			position: relative;
+			z-index: -10;
+			height: 6rem;
+		}
 			.table__cell {
 				position: relative;
-				/*margin-top: 1rem;*/
-				height: 6rem;
+				margin-top: 1rem;
 				width: 6rem;
 				border: 0px solid green;
 				text-align: center;
 				font: 3rem Arial, sans-serif;
 				color: #777;
-				transform: translateY(24%);
 			}
 
 .terminal__box {
-	margin: 3rem 0 0 0;
+	display: absolute;
+	margin: 1rem 0 0 0;
 	padding: .25rem .25rem;
 	width: 24rem;
 	height: 16rem;
-	border: solid 2px #999 ;
+	border: solid .5px #999 ;
 	box-sizing: border-box;
 	overflow-y: scroll;
 }	
 	.terminal__line {
-		font-size: 14px;
+		font-size: 13px;
 	}
 	.terminal__userline{
 		font-size: 16px;
@@ -174,8 +222,14 @@ table  {
 			font-size: 14px
 		}
 		.terminal__user {
-			margin-left: .1rem;
+			width: 1rem;
 		}
+@media screen and (max-width: 550px) {
+
+	.terminal__box  {
+		height: 6.5rem;
+	}
+}
 
 .user__box {
 	display: grid;
@@ -198,6 +252,9 @@ table  {
 		padding: 1rem 0 0 .75rem;
 		resize: none;
 		border-top: none;
+		border-right: none;
+		border-width: 1px;
+
 	}
 	.user__btn {
 		position: relative;
@@ -217,10 +274,17 @@ table  {
 			margin-top: .8rem;
 			margin-left: -19.5rem;
 		}
+	@media screen and (max-width: 550px) {
+
+		.user__graphic {
+			margin: .75rem 0 0 1rem;
+			height: 1.5rem;
+		}
+	}
 
 .animate__entry {
 	position: absolute;
-	margin-top: 34.3rem;
+	margin-top: 34.1rem;
 	margin-left: -21.8rem;
 }
 
@@ -231,8 +295,6 @@ table  {
 	font: 3rem Arial, sans-serif;
 	color:red;
 }
-
-
 
 
 
