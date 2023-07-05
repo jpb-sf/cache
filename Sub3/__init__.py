@@ -63,19 +63,7 @@ timer.start() # timer.cancel() optional
 
 #==============
 
-def fib(n):
-	try:
-		n = int(n)
-	except:
-		return
-	if n == 0:
-		return "zero"
-	if n == 1:
-		return 0
-	if n == 2 or n == 3:
-		return 1
-	else:
-		return fib(n - 1) + fib(n - 2)
+
 
 def send_cache(collection):
 	# if collection.find_one({'_id': 'linked-list'}):
@@ -108,7 +96,7 @@ def identify_user(caller):
 			new_id = str(uuid.uuid4()) + "." + str(time.time())
 			session['id'] = new_id
 			return {'exists': False, 'id': new_id}
-	# if unidentified user/ip adress (no session) has accessed home page. Session id and DB collection isn't created until first entry received
+	# if error or unidentified user/ip adress (no session) has accessed home page as session id and DB collection isn't created until first entry received
 	return {'exists': False, 'id': False}
 
 @app.route('/')
@@ -127,19 +115,10 @@ def home():
 		return render_template('index.html')
 
 
-def add_first_link(collection, arg):
-	fib_val = fib(arg)
-	collection.insert(
-	{
-		'key': arg,
-		'value': fib_val,
-		'nex': None,
-		'prev': None
-	})
-	return fib_val
+
 
 def build_cache(collection, arg):
-	new_node = collection.find_one({'key': arg})#####
+	new_node = collection.find_one({'key': arg})
 	address = new_node['_id']
 	
 	collection.insert_many(
@@ -163,6 +142,7 @@ def check_arg_exist(h_map, arg):
 		for i in list(extract.keys()):
 			if i == arg:
 				exists = True
+				print('this argument exists')
 	return exists
 
 def swap_link(collection, arg, count):
@@ -230,12 +210,49 @@ def swap_link(collection, arg, count):
 		condition += 1
 	return condition
 
+def fib(n):
+	try:
+		n = int(n)
+	except:
+		return
+	if n == 0:
+		return  "zero"
+	if n == 1:
+		return 0
+	if n == 2 or n == 3:
+		return 1
+	else:
+		return fib(n - 1) + fib(n - 2)
+	
+def elapsed_time(start, end):
+	return "{:.8f}".format(end - start)
+
+def add_first_link(collection, arg):
+	start = time.time()
+	fib_val = fib(arg)
+	end = time.time()
+	elapsed = elapsed_time(start, end)
+	
+	collection.insert(
+	{
+		'key': arg,
+		'value': fib_val,
+		'nex': None,
+		'prev': None
+	})
+	return dict(value = fib_val, time = elapsed)
+
 def add_link(collection, arg):
+	start = time.time()
+	fib_val = fib(arg)
+	end = time.time()
+	elapsed = elapsed_time(start, end)
+	
 	l_list = collection.find_one({'_id': 'linked-list'})
 	collection.insert(
 		{
 			'key': arg,
-			'value': fib(arg),
+			'value': fib_val,
 			'nex': l_list['head'],
 			'prev': None
 		})
@@ -257,17 +274,27 @@ def add_link(collection, arg):
 		{
 			"$set": {arg: address}
 		})
+	return dict(value = fib_val, time = elapsed)
+
+def get_fib(collection, arg):
+	h_map = collection.find_one({'_id': 'hashmap'})
+	arg = str(arg)
+	start = time.time()
+	get_node = collection.find_one({'_id': h_map[arg]})
+	end = time.time()
+	elapsed = elapsed_time(start, end)
+	return dict(value = get_node['value'], time = elapsed)
 	
 # Remove LRU node
 def del_LRU(collection, arg):
 	# Get last node in linked-list (l_list)
 	l_list = collection.find_one({'_id': 'linked-list'})
 	last = collection.find_one({'_id': l_list['tail']})
-	
-	# Remove corresponding hashmap value from hashmap doc
+
+	# Remove corresponding hashmap value from 'hashmap' document
 	collection.update({'_id': 'hashmap'},
 		{
-			"$unset": {last['key']: last['value']}
+			"$unset": {last['key']: last['_id']}
 		})
 	# Get the second-to-last node id
 	next_last = collection.find_one({'_id': last['prev']})
@@ -283,12 +310,6 @@ def del_LRU(collection, arg):
 			"$set": {'tail': next_last['_id']}
 		})
 
-def get_fib(collection, arg):
-	h_map = collection.find_one({'_id': 'hashmap'})
-	arg = str(arg)
-	get_node = collection.find_one({'_id': h_map[arg]})
-	return get_node['value']
-
 def clear_cache(arg):
 	db.drop_collection(session['id'])
 	result = json.dumps({'key': arg, 'value': None, 'condition': None, 'count': None, 'exists': None })
@@ -301,21 +322,23 @@ def	cache_manager():
 	# Check if session id is in database
 	status = identify_user('cache_manager')
 	session['id'] = status['id']
-	# 'exists' bool is used for clearing of front end cache if back-end does not exist
-	exists = status['exists']	#
+	# 'exists' boolean value is used for clearing front end cache if back-end does not exist
+	exists = status['exists']	
 	collection = db[session['id']]
 	# Receive value from front end
 	arg = request.get_data().decode('UTF-8')
+	
 	if arg == None:
 		return
 
-	if arg == "c" or arg == "C":
+	if arg == "e" or arg == "E":
 		return clear_cache(arg)
+
 	# Check the number of existing key/val pairs
 	results = collection.find({})
 	count = results.count()
 
-	# values returned to front end 
+	# Values to be returned
 	condition = None
 	fib_val = None
 
@@ -325,14 +348,14 @@ def	cache_manager():
 		fib_val = add_first_link(collection, arg)
 		# call buld_cache: creating foundation of cache db data structure (linked-list document w/ head/tail vals, along with the hashmap dictionary) 
 		build_cache(collection, arg)
-		# condition = 1
+		condition = 1
 	
 	# If user exists, check if submitted argument exists already or not	
 	else:
 		h_map = collection.find({'_id': 'hashmap'})
 		arg_exists = check_arg_exist(h_map, arg)
 
-		# If arg exists, is arg the head value of the linked-list? (The most recently used), do nothing, otherwise swap
+		# If arg exists: is arg the head value of the linked-list? (The most recently used), if so-do nothing, otherwise swap
 		if arg_exists:
 			l_list = collection.find_one({'_id': 'linked-list'})
 			head = collection.find_one({'_id': l_list['head']})
@@ -345,22 +368,24 @@ def	cache_manager():
 
 		# Arg value does not exist in 'cache', insert it, if cache is full, delete the LRU document	
 		else:
-			add_link(collection, arg)
+			fib_val = add_link(collection, arg)
 			if count >= 6:
 				del_LRU(collection, arg)
 				condition = 5
 			else:
 				count -= 2
-	# if user has one or less lookups cached, condition is 1
-	if count <= 3:
-		 condition = 1
+				condition = 1
+	
 	# find fib_val 
 	if not fib_val:
 		fib_val = get_fib(collection, arg)
 	# Print cache to terminal	
+	value = fib_val['value']
+	time = fib_val['time']
 	every = collection.find({})
+
 	for ever in every:
-		result = json.dumps({'key': arg, 'value': fib_val, 'condition': condition, 'count': count, 'exists': exists })
+		result = json.dumps({'key': arg, 'value': value, 'time': time, 'condition': condition, 'count': count, 'exists': exists })
 	return result
 
 if __name__ == '__main__':

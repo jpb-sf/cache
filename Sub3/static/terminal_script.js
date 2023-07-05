@@ -2,10 +2,9 @@
 // Terminal script
 const terminalScript = (function()
 {	
-	console.log('terminal script')
 	const cursor = document.querySelector('.user__cursor');
 	// blinking cursor at 600/1000 of a second intervals
-	let settingInterval = function()
+	let blinkingCursor = function()
 	{
 		let blink = true;
 		
@@ -20,52 +19,86 @@ const terminalScript = (function()
 				blink = true;
 			}
 		}, 600);
-		return val
+		return val;
 	}
 
-	let interval1 = settingInterval();
+	let interval1 = blinkingCursor();
 	let cursorFlag = true;
-	console.log(interval1)
 	// mouseup event in window checks if textarea(terminal) is active and stops cursor from blinking
-	window.addEventListener('mouseup', () => {
+
+	let activateBlinkingCursor = function() 
+	{
 		const terminal = document.querySelector('.user__terminal');
-		if (terminal === document.activeElement)
+		const terminalBtn= document.querySelector('.user__btntext');
+		
+		if (terminal !== document.activeElement &&			
+			terminalBtn !== document.activeElement)
 		{	
-			console.log(interval1)
-			cursor.style.opacity = "0"
+			cursor.style.opacity = "0";
 			clearInterval(interval1);
 			cursorFlag = false;
 			return;
 		}
-		// cursor has been stoppped but terminal is no longer active restart cursor (settingInterval())
+		// cursor has been stoppped but terminal is no longer active restart cursor (blinkingCursor())
 		if (cursorFlag === false)
 		{
-			interval1 = settingInterval();
+			interval1 = blinkingCursor();
 			cursorFlag = true;
 			return;
 		}
+	}
+	window.addEventListener('mouseup', () => {
+		activateBlinkingCursor();
+	})
+
+	document.querySelector('.body').addEventListener('keydown', (e) => {
+		if (e.which === 84 || e.which === 116) // t or T
+		{	
+			e.preventDefault();
+			terminalScript.terminalFocus();
+			activateBlinkingCursor();
+		} 
 	})
 
 	// prevent the capability of certain key values to be entered inside textarea 
 	document.querySelector('.user__terminal').addEventListener('keydown', (e) => {
 
-		if ((e.which > 67 && e.which < 96) || 
-			e.which > 105 ||
-			e.which === 65 ||
-			e.which === 66 ||
-			e.code === "Enter" ||
-			e.code === "Space")
+		if (!(e.which <= 31) && !(e.which >= 122) &&
+			e.which !== 65 && e.which !== 97 && // a or a
+		 	e.which !== 67 && e.which !== 99 && // c or C
+			e.which !== 69 && e.which !== 101 &&	// e or E
+			e.which !== 70 && e.which !== 102 &&	// f or F
+			e.which !== 75 && e.which !== 107 && // k or K
+			e.which !== 76 && e.which !== 108 && // l or L
+			e.which !== 80 && e.which !== 112 && // p or p
+			e.which !== 86 && e.which !== 118 && // v or V
+			e.which !== 88 && e.which !== 120 && // x or X
+			!(e.which >= 48 && e.which <= 57)) // 1 thru 9
 		{
-			e.preventDefault()
+			e.preventDefault();
 		}
+
+		if (e.which === 13)
+		{	
+			e.preventDefault()
+			cacheScript.send();
+		}
+	})
+
+	window.addEventListener('load', (e) => {
+		terminalScript.terminalFocus();
 	})
 
 	return {
 
-		terminal: document.querySelector('.terminal__box'),
+		terminalFocus: function()
+		{
+			document.querySelector('.user__terminal').focus();
+		},
+
 		terminalEntry: function(key)
 		{	
-			const terminal = terminalScript.terminal;
+			const terminal = document.querySelector('.terminal__box');
 			const userIcon = "<img class=\"terminal__user\" src=\"/static/images/user_icon_r.svg\" alt=\"user\">";
 			const displayKey = "<code class=\"terminal__userline\">" + key + "</code>";
 			terminal.innerHTML += userIcon + " " + displayKey + "<br>";
@@ -73,53 +106,97 @@ const terminalScript = (function()
 			terminal.scrollTop = terminal.scrollHeight - terminal.clientHeight;
 		},
 
-		terminalManager: function(condition, key)
+		// manages responses of program messages in terminal
+		terminalManager: function(condition, key, time)
 		{	
-			// terminal responses
-			const terminal = terminalScript.terminal;
-			const terminalIcon = "<img class=\"terminal__icon\" src=\"/static/images/terminal_icon_r.svg\" alt=\"user\">"
-			const notCache = "<code class=\"terminal__line\">The entry was not previously cached, but is now saved in memory</code>"
-			const alreadyCache = "<code class=\"terminal__line\">The entry and value was found and retreived from cache</code>"
-			const pleaseEnter = "<code class=\"terminal__line\">Please enter fibonacci position (0 to 17)</code>"
-			const lruRemoved = "<code class=\"terminal__line\">LRU data removed from cache</code>"
-			const cacheCleared = "<code class=\"terminal__line\">Cache has been cleared</code>"
+			const terminalTextArea = document.querySelector('.user__terminal');
+			const terminal = document.querySelector('.terminal__box');
 			
-			// Different outcomes prompt different messages in the terminal 
-
+			// Different outcomes prompt different messages in the terminal 				
 			if (key === "c" ||
 				key === "C")
 			{
-				terminal.innerHTML += (terminalIcon + " " + cacheCleared + "<br>")
+				terminal.innerHTML = "";
+			}
+			
+			if (key === "e" ||
+				key === "E")
+			{
+				terminal.innerHTML += (messages.terminalIcon + " " + messages.cacheCleared + "<br>")
 				terminal.scrollTop = terminal.scrollHeight - terminal.clientHeight;
-				return
+			}
+			if (key === "a" ||
+				key === "A")
+			{
+				terminal.innerHTML += (messages.terminalIcon + " " + messages.aboutKey + "<br>")
+				terminal.scrollTop = terminal.scrollHeight - terminal.clientHeight;
+			}
+			if (key === "f" ||
+				key === "F")
+			{
+				terminal.innerHTML += (messages.terminalIcon + " " + messages.aboutFib + "<br>")
+				terminal.scrollTop = terminal.scrollHeight - terminal.clientHeight;
+			}
+			if (key === "k" ||
+				key === "K")
+			{
+				terminal.innerHTML += (messages.terminalIcon + " " + messages.appKey + "<br>")
+				terminal.scrollTop = terminal.scrollHeight - terminal.clientHeight;
+			}
+			if (key === "l" ||
+				key === "L")
+			{
+				terminal.innerHTML += (messages.terminalIcon + " " + messages.aboutLru + "<br>")
+				terminal.scrollTop = terminal.scrollHeight - terminal.clientHeight;
+			}
+			if (key === "p" ||
+				key === "P")
+			{
+				terminal.innerHTML += (messages.terminalIcon + " " + messages.aboutApp + "<br>")
+				terminal.scrollTop = terminal.scrollHeight - terminal.clientHeight;
 			}
 
+			if (key === "v" ||
+				key === "V")
+			{
+				terminal.innerHTML += (messages.terminalIcon + " " + messages.aboutValue + "<br>")
+				terminal.scrollTop = terminal.scrollHeight - terminal.clientHeight;
+			}
+			if (key === "x" ||
+				key === "X")
+			{
+				terminal.innerHTML += (messages.terminalIcon + " " + messages.aboutCache + "<br>")
+				terminal.scrollTop = terminal.scrollHeight - terminal.clientHeight;
+			}	
 			if (condition === 1 || 
 				condition === 5)
 			{	
-				terminal.innerHTML += (terminalIcon + " " + notCache + "<br>")
+				terminal.innerHTML += (messages.terminalIcon + " " + messages.notCache + "<br>");
+				terminal.innerHTML += (messages.terminalIcon + " " + messages.timeElapsed + time + messages.seconds + "<br>");
 				
 				if (condition == 5)
 				{
-					terminal.innerHTML += (terminalIcon + " " + lruRemoved + "<br>")
+					terminal.innerHTML += (messages.terminalIcon + " " + messages.lruRemoved + "<br>")
 				}
 				terminal.scrollTop = terminal.scrollHeight - terminal.clientHeight;
 			}
 
-			if (condition === null ||
-				condition === 2 || 
+			if (condition === 2 || 
 				condition === 3 || 
 				condition === 4)
 			{	
-				terminal.innerHTML += (terminalIcon + " " + alreadyCache + "<br>")
+				terminal.innerHTML += (messages.terminalIcon + " " + messages.alreadyCache + "<br>");
+				terminal.innerHTML += (messages.terminalIcon + " " + messages.timeElapsed + time + messages.seconds + "<br>");
 				terminal.scrollTop = terminal.scrollHeight - terminal.clientHeight;
 
 			}
 			window.setTimeout(() => {
-				terminal.innerHTML += (terminalIcon + " " + pleaseEnter + "<br>")
+				terminal.innerHTML += (messages.terminalIcon + " " + messages.pleaseEnter + "<br>")
 				terminal.scrollTop = terminal.scrollHeight - terminal.clientHeight;
 
 			}, 700)
+			terminalTextArea['readOnly'] = false;
+			this.terminalFocus();
 		}
 	}
 })()

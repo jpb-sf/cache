@@ -9,24 +9,24 @@
 </head>
 <body class="body">
 	<nav class="nav">
-		<h3 class="logo">LRU Cache </br> Simulation</h3>
+		<h3 class="logo">LRU Cache </br> Visualizer</h3>
 			<!-- <div class="info"></div> -->
-	     <div class="nav__homelink--wrapper">
-	        <a href="https://www.jasonbergland.com/projects" class="nav__homelink--link" >
-	            <div>
-	                <hr class="nav__homelink--rule">
-	                <h6 class="nav__homelink--text"> Return to <br> my portfolio</h6>
-	            </div>
-	        </a>
-	    </div>
+	      <a href="https://www.jasonbergland.com/projects" class="nav__homelink--wrapper">
+		     <div class="nav__homelink--container">
+		            <div>
+		                <hr class="nav__homelink--rule">
+		                <h6 class="nav__homelink--text"> Return to <br> my portfolio</h6>
+		            </div>
+		    </div>
+	       </a>
 	</nav>
 	<main class="main">
 		<h4>Cache Memory</h4>
 		<div class="table__wrapper">
 			<section class="table__index">
 				<div class="index__container">
-					<h4 class="index__position">Postiton in <br>sequence</h4>
-					<h4 class="index__number">Fibonnaci number</h4>
+					<h4 class="index__position">User<br> entry</h4>
+					<h4 class="index__number">Returned <br> value</h4>
 				</div>
 			</section>
 			<!-- Table border -->
@@ -68,20 +68,22 @@
 		</div>
 		<div class="terminal__box">
 			<img class="terminal__icon" src="/static/images/terminal_icon_r.svg" alt="user">
-			<code class=terminal__line> Hello, please enter fibbonaci position (0–17)</code>
+			<code class=terminal__line> Hello, please enter a number (1–35)</code>
 			<br>
 		</div>
 		<div class="user__box">
 			<img class="user__graphic" src="/static/images/user_icon.svg" alt="user">
 			<textarea class="user__terminal"></textarea>
 			<div class="user__btn">
-				<p class="user__btntext">enter</p>
+				<button class="user__btntext">enter</button>
 				<div class="user__cursor"></div>
 			</div>
 		</div>
+		<p class="mt-1 color__mid-gray">Enter 'k' for terminal key</p>
 	</main>
 
 	<script type="text/javascript" src="{{ url_for('static', filename='terminal_script.js') }}"/></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='terminal_messages.js') }}"/></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='cache_script.js') }}"/></script>
 </body>
 </html>
